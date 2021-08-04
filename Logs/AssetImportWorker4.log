@@ -1,0 +1,1864 @@
+Using pre-set license
+Built from '2020.3/china_unity/release' branch; Version is '2020.3.14f1c1 (ed787cdc2846) revision 15562876'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.1110; Version 2009; 64bit' Language: 'zh' Physical Memory: 16263 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.14f1c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+E:/ShadingFrameworkProj
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+61741
+Successfully changed project path to: E:/ShadingFrameworkProj
+E:/ShadingFrameworkProj
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 76.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.14f1c1 (ed787cdc2846)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.14f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/ShadingFrameworkProj/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 3GB (ID=0x1c02)
+    Vendor:   
+    VRAM:     2988 MB
+    Driver:   27.21.14.6192
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.14f1c1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.14f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.14f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56660
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.14f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006792 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 100.77 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 15.283 seconds
+Domain Reload Profiling:
+	ReloadAssembly (15284ms)
+		BeginReloadAssembly (419ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (809ms)
+			LoadAssemblies (425ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (298ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (64ms)
+			SetupLoadedEditorAssemblies (301ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (101ms)
+				BeforeProcessingInitializeOnLoad (18ms)
+				ProcessInitializeOnLoadAttributes (136ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.026364 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 121.23 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.057 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4060ms)
+		BeginReloadAssembly (1322ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (2609ms)
+			LoadAssemblies (1326ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1404ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (105ms)
+			SetupLoadedEditorAssemblies (547ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (121ms)
+				BeforeProcessingInitializeOnLoad (131ms)
+				ProcessInitializeOnLoadAttributes (275ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.36 seconds
+Refreshing native plugins compatible for Editor in 1.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3013 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 172.0 MB.
+System memory in use after: 164.4 MB.
+
+Unloading 78 unused Assets to reduce memory usage. Loaded Objects now: 3390.
+Total: 15.519800 ms (FindLiveObjects: 0.418700 ms CreateObjectMapping: 0.250600 ms MarkObjects: 3.411000 ms  DeleteObjects: 11.437400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc42e30003074059bef8fb59cba1b257') in 0.324992 seconds 
+  Import took 0.338016 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2835.069722 seconds.
+  path: Assets/ToonShade/ToonLitOutline.shader
+  artifactKey: Guid(a7ba8dc624514a33ba5f1854859647b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonShade/ToonLitOutline.shader using Guid(a7ba8dc624514a33ba5f1854859647b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0cbdc4b307f41fe54d38888423e8019') in 0.066909 seconds 
+  Import took 0.307984 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.553017 seconds.
+  path: Assets/ToonShade/ToonLitOutline.shader
+  artifactKey: Guid(a7ba8dc624514a33ba5f1854859647b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonShade/ToonLitOutline.shader using Guid(a7ba8dc624514a33ba5f1854859647b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b351e5fe04e547037260813252c0cde0') in 0.013407 seconds 
+  Import took 0.030606 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.561283 seconds.
+  path: Assets/ToonShade/ToonLitOutline.shader
+  artifactKey: Guid(a7ba8dc624514a33ba5f1854859647b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonShade/ToonLitOutline.shader using Guid(a7ba8dc624514a33ba5f1854859647b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b351e5fe04e547037260813252c0cde0') in 0.084100 seconds 
+  Import took 0.125699 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 238.615459 seconds.
+  path: Assets/ToonShade/ToonLitOutline.shader
+  artifactKey: Guid(a7ba8dc624514a33ba5f1854859647b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonShade/ToonLitOutline.shader using Guid(a7ba8dc624514a33ba5f1854859647b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2934c8538bf782a7c920dce930a889a6') in 0.026769 seconds 
+  Import took 0.035757 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 362.390724 seconds.
+  path: Assets/ToonShade/ToonLitOutline.shader
+  artifactKey: Guid(a7ba8dc624514a33ba5f1854859647b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonShade/ToonLitOutline.shader using Guid(a7ba8dc624514a33ba5f1854859647b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4b60f0d1930a12845b13e4e98d24388') in 0.016253 seconds 
+  Import took 0.044974 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 462.819508 seconds.
+  path: Assets/ToonShade/ToonLitOutline.shader
+  artifactKey: Guid(a7ba8dc624514a33ba5f1854859647b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonShade/ToonLitOutline.shader using Guid(a7ba8dc624514a33ba5f1854859647b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a489158cfc2c3935012be21d4b9da275') in 0.017694 seconds 
+  Import took 0.023791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 200.981841 seconds.
+  path: Assets/ToonShade/ToonLitOutline.shader
+  artifactKey: Guid(a7ba8dc624514a33ba5f1854859647b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonShade/ToonLitOutline.shader using Guid(a7ba8dc624514a33ba5f1854859647b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22407b0d0d00a0608ccf19c529f32d0d') in 0.016924 seconds 
+  Import took 0.024838 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.385604 seconds.
+  path: Assets/ToonShade/ToonLitOutline.shader
+  artifactKey: Guid(a7ba8dc624514a33ba5f1854859647b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonShade/ToonLitOutline.shader using Guid(a7ba8dc624514a33ba5f1854859647b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7fec16a555ce4ef0abf9d05abdac4e2') in 0.016503 seconds 
+  Import took 0.039905 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.036494 seconds.
+  path: Assets/ToonShade/ToonLitOutline.shader
+  artifactKey: Guid(a7ba8dc624514a33ba5f1854859647b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonShade/ToonLitOutline.shader using Guid(a7ba8dc624514a33ba5f1854859647b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b96261f57ec5088595f460e38929c80') in 0.017729 seconds 
+  Import took 0.026045 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.916744 seconds.
+  path: Assets/ToonShade/ToonLitOutline.shader
+  artifactKey: Guid(a7ba8dc624514a33ba5f1854859647b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonShade/ToonLitOutline.shader using Guid(a7ba8dc624514a33ba5f1854859647b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b96261f57ec5088595f460e38929c80') in 0.108478 seconds 
+  Import took 0.160650 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 157.706520 seconds.
+  path: Assets/ToonShade/ToonLitOutline.shader
+  artifactKey: Guid(a7ba8dc624514a33ba5f1854859647b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonShade/ToonLitOutline.shader using Guid(a7ba8dc624514a33ba5f1854859647b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0664c8f23c07649bcfb38ce57469614') in 0.021155 seconds 
+  Import took 0.035879 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003271 seconds.
+  path: Assets/ToonShade/ToonLitOutline.shader
+  artifactKey: Guid(a7ba8dc624514a33ba5f1854859647b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonShade/ToonLitOutline.shader using Guid(a7ba8dc624514a33ba5f1854859647b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0664c8f23c07649bcfb38ce57469614') in 0.020900 seconds 
+  Import took 0.028392 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.114697 seconds.
+  path: Assets/ToonShade/ToonLitOutline.shader
+  artifactKey: Guid(a7ba8dc624514a33ba5f1854859647b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonShade/ToonLitOutline.shader using Guid(a7ba8dc624514a33ba5f1854859647b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deeb8c33f4398cc23454fd701e421938') in 0.015102 seconds 
+  Import took 0.035037 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.869264 seconds.
+  path: Assets/ToonShade/ToonLitOutline.shader
+  artifactKey: Guid(a7ba8dc624514a33ba5f1854859647b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonShade/ToonLitOutline.shader using Guid(a7ba8dc624514a33ba5f1854859647b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deeb8c33f4398cc23454fd701e421938') in 0.041589 seconds 
+  Import took 0.076583 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 822.337278 seconds.
+  path: Assets/ToonShade/ToonLitOutline.shader
+  artifactKey: Guid(a7ba8dc624514a33ba5f1854859647b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonShade/ToonLitOutline.shader using Guid(a7ba8dc624514a33ba5f1854859647b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db85b9a168409ba6f6192046551bbd17') in 0.016287 seconds 
+  Import took 0.030002 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.131737 seconds.
+  path: Assets/ToonShade/ToonLitOutline.shader
+  artifactKey: Guid(a7ba8dc624514a33ba5f1854859647b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonShade/ToonLitOutline.shader using Guid(a7ba8dc624514a33ba5f1854859647b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db85b9a168409ba6f6192046551bbd17') in 0.020946 seconds 
+  Import took 0.027205 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 204.530228 seconds.
+  path: Assets/ToonShade/ToonLitOutline.shader
+  artifactKey: Guid(a7ba8dc624514a33ba5f1854859647b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonShade/ToonLitOutline.shader using Guid(a7ba8dc624514a33ba5f1854859647b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7c9f5ea105cd61422c08b53748b8c5f') in 0.013667 seconds 
+  Import took 0.021339 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.304873 seconds.
+  path: Assets/ToonShade/ToonLitOutline.shader
+  artifactKey: Guid(a7ba8dc624514a33ba5f1854859647b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonShade/ToonLitOutline.shader using Guid(a7ba8dc624514a33ba5f1854859647b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e17e3aa7af69ec35104ed1290a8555c6') in 0.016793 seconds 
+  Import took 0.025151 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1457.460320 seconds.
+  path: Assets/ShenliLinghua/tex/服_mask.png
+  artifactKey: Guid(5f25cf8c8ec628346832bf5167f741ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ShenliLinghua/tex/服_mask.png using Guid(5f25cf8c8ec628346832bf5167f741ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd4cfdec1dfd8f43c9823473fd7c7c23') in 0.297871 seconds 
+  Import took 0.303136 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 320.867557 seconds.
+  path: Assets/ToonShade/ToonLitOutline.shader
+  artifactKey: Guid(a7ba8dc624514a33ba5f1854859647b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonShade/ToonLitOutline.shader using Guid(a7ba8dc624514a33ba5f1854859647b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2a0e76aec91fd5129fa4109ede0645c') in 0.019062 seconds 
+  Import took 0.036831 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001602 seconds.
+  path: Assets/ToonShade/ToonLitOutline.shader
+  artifactKey: Guid(a7ba8dc624514a33ba5f1854859647b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonShade/ToonLitOutline.shader using Guid(a7ba8dc624514a33ba5f1854859647b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2a0e76aec91fd5129fa4109ede0645c') in 0.016705 seconds 
+  Import took 0.024791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.102810 seconds.
+  path: Assets/ToonShade/ToonLitOutline.shader
+  artifactKey: Guid(a7ba8dc624514a33ba5f1854859647b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonShade/ToonLitOutline.shader using Guid(a7ba8dc624514a33ba5f1854859647b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b19b6b9daae3895e59915cfc514bb23') in 0.044247 seconds 
+  Import took 0.057726 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 618.701518 seconds.
+  path: Assets/ToonShade
+  artifactKey: Guid(460d4767547940f18abbf79f0aea4dd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonShade using Guid(460d4767547940f18abbf79f0aea4dd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7316bba26904f2762bf7e46d3a37f1d2') in 0.020929 seconds 
+  Import took 0.039985 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.676972 seconds.
+  path: Assets/ToonShade/Shader
+  artifactKey: Guid(9cd60f359cbbf3a4b91804d0a1645548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonShade/Shader using Guid(9cd60f359cbbf3a4b91804d0a1645548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7ba6a1f317874311138e3e1706b62fc') in 0.027455 seconds 
+  Import took 0.051844 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.189516 seconds.
+  path: Assets/ToonShade/Editor
+  artifactKey: Guid(644d53cc5dd824743a90ec6e750fc83b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonShade/Editor using Guid(644d53cc5dd824743a90ec6e750fc83b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '034ce73ac27e6cae41529a1ba8460ec3') in 0.023477 seconds 
+  Import took 0.030805 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.027658 seconds.
+  path: Assets/ToonShade/SimpleToonFunctions.hlsl
+  artifactKey: Guid(db4e7ac31db444f79e94f703a7844a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonShade/SimpleToonFunctions.hlsl using Guid(db4e7ac31db444f79e94f703a7844a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00c4a8f359a3e555fb29a894c902c691') in 0.036535 seconds 
+  Import took 0.043019 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.692337 seconds.
+  path: Assets/Toon/Editor/CopyMaterialParameter.cs
+  artifactKey: Guid(aaf169f3c83f49c409986bdd606c2453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon/Editor/CopyMaterialParameter.cs using Guid(aaf169f3c83f49c409986bdd606c2453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0309ebc604726f4bca1a962a976cc49') in 0.048864 seconds 
+  Import took 0.054912 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.048564 seconds.
+  path: Assets/Toon/Editor/RemoveUnusedMaterialProperties.cs
+  artifactKey: Guid(cad15f56be91b744aaf8e22339bc598c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon/Editor/RemoveUnusedMaterialProperties.cs using Guid(cad15f56be91b744aaf8e22339bc598c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7c4fa975b309beefa853564f4e5a7f3') in 0.020067 seconds 
+  Import took 0.045252 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.682636 seconds.
+  path: Assets/Toon/Editor/RemoveUnusedShaderKeywordsFromUTS2Material.cs
+  artifactKey: Guid(a9775daf5f793f64e98ccd6c4a61bbc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon/Editor/RemoveUnusedShaderKeywordsFromUTS2Material.cs using Guid(a9775daf5f793f64e98ccd6c4a61bbc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f37137617a1683c09c5ccc582928028d') in 0.021105 seconds 
+  Import took 0.039641 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.718563 seconds.
+  path: Assets/Toon/Editor/UTS2GUI.cs
+  artifactKey: Guid(e403ef4b1d56fce47b49ec46981d9fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Toon/Editor/UTS2GUI.cs using Guid(e403ef4b1d56fce47b49ec46981d9fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5cd536aaec46803d27042cc9ad879c8') in 0.025976 seconds 
+  Import took 0.033898 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2727.826828 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部
+  artifactKey: Guid(075c995f54738f443aa25e393fc380a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部 using Guid(075c995f54738f443aa25e393fc380a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9bb9f1150443d1630d387d93903ce3e') in 0.018606 seconds 
+  Import took 0.058676 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.180410 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/Ray渲染材质包
+  artifactKey: Guid(7ba3615c33e87cb45974444e1b7c19db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/Ray渲染材质包 using Guid(7ba3615c33e87cb45974444e1b7c19db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0a673c4c6f56e74c5a52adebe9df810') in 0.018369 seconds 
+  Import took 0.024221 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.112413 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/Ray渲染材质包/材質2.fx
+  artifactKey: Guid(9ea2793d0d2f4fe40991f61c77077203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/Ray渲染材质包/材質2.fx using Guid(9ea2793d0d2f4fe40991f61c77077203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8bd3275c256fead0d9e1ad71a9f213d') in 0.064755 seconds 
+  Import took 0.075756 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.607282 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/Ray渲染材质包/材質4_夜晚.fx
+  artifactKey: Guid(bc8efbe417f342d4fa493f90e9186db8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/Ray渲染材质包/材質4_夜晚.fx using Guid(bc8efbe417f342d4fa493f90e9186db8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b286d6a86fe08efe33965217d45fcf01') in 0.018181 seconds 
+  Import took 0.022875 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.452057 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/Ray渲染材质包/材質6.fx
+  artifactKey: Guid(dd0548f199b6d3d479ac17a46414bc58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/Ray渲染材质包/材質6.fx using Guid(dd0548f199b6d3d479ac17a46414bc58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '891387a0553551c025e6c81515d576fb') in 0.023259 seconds 
+  Import took 0.029346 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.971966 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/Ray渲染材质包/材質10_白天.fx
+  artifactKey: Guid(b48344c31b7782a4d851b911ffe81a61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/Ray渲染材质包/材質10_白天.fx using Guid(b48344c31b7782a4d851b911ffe81a61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0909fc866cef34943dc10520db0e787a') in 0.030532 seconds 
+  Import took 0.035930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.772200 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/Ray渲染材质包/material_common_2.0.fxsub
+  artifactKey: Guid(82e529845180c374fb11fbfaa3a52550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/Ray渲染材质包/material_common_2.0.fxsub using Guid(82e529845180c374fb11fbfaa3a52550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '539fab05eaeb2484e9396e45b52205b3') in 0.027450 seconds 
+  Import took 0.034268 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.896602 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/Tex
+  artifactKey: Guid(334f6d1a4a1c1b540b33581277450a88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/Tex using Guid(334f6d1a4a1c1b540b33581277450a88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed9f793f6c58a5dde69b72620437d2d7') in 0.025530 seconds 
+  Import took 0.031428 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.816029 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/神里屋敷 社奉行本部.pmx
+  artifactKey: Guid(be47d51656f41854fbcbad091209d9f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/神里屋敷 社奉行本部.pmx using Guid(be47d51656f41854fbcbad091209d9f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c92c6c3d593b0d7b53438a7f2c4e02c9') in 0.032551 seconds 
+  Import took 0.040405 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 199.275649 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/House.fbx
+  artifactKey: Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/House.fbx using Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 1.684119 seconds  code(4) message(Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z')
+  ERROR: Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z'
+  Import took 1.692188 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012197 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/House.fbx
+  artifactKey: Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/House.fbx using Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.142427 seconds  code(4) message(Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z')
+  ERROR: Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z'
+  Import took 0.150109 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010724 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/House.fbx
+  artifactKey: Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/House.fbx using Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.119968 seconds  code(4) message(Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z')
+  ERROR: Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z'
+  Import took 0.125852 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011018 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/House.fbx
+  artifactKey: Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/House.fbx using Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.133672 seconds  code(4) message(Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z')
+  ERROR: Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z'
+  Import took 0.141168 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013318 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/House.fbx
+  artifactKey: Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/House.fbx using Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.113248 seconds  code(4) message(Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z')
+  ERROR: Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z'
+  Import took 0.119663 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016183 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/House.fbx
+  artifactKey: Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/House.fbx using Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.112970 seconds  code(4) message(Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z')
+  ERROR: Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z'
+  Import took 0.120747 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011714 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/House.fbx
+  artifactKey: Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/House.fbx using Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.110107 seconds  code(4) message(Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z')
+  ERROR: Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z'
+  Import took 0.115415 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013924 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/House.fbx
+  artifactKey: Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/House.fbx using Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.108123 seconds  code(4) message(Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z')
+  ERROR: Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z'
+  Import took 0.114832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015217 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/House.fbx
+  artifactKey: Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/House.fbx using Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.115320 seconds  code(4) message(Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z')
+  ERROR: Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z'
+  Import took 0.122365 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017919 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/House.fbx
+  artifactKey: Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/House.fbx using Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.116558 seconds  code(4) message(Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z')
+  ERROR: Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z'
+  Import took 0.123160 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010363 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/House.fbx
+  artifactKey: Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/House.fbx using Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.120302 seconds  code(4) message(Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z')
+  ERROR: Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z'
+  Import took 0.125622 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011522 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/House.fbx
+  artifactKey: Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/House.fbx using Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.105136 seconds  code(4) message(Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z')
+  ERROR: Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z'
+  Import took 0.111358 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011020 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/House.fbx
+  artifactKey: Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/House.fbx using Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.111315 seconds  code(4) message(Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z')
+  ERROR: Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z'
+  Import took 0.116815 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013362 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/House.fbx
+  artifactKey: Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/House.fbx using Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.122654 seconds  code(4) message(Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z')
+  ERROR: Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z'
+  Import took 0.130063 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017924 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/House.fbx
+  artifactKey: Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/House.fbx using Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.124285 seconds  code(4) message(Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z')
+  ERROR: Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z'
+  Import took 0.132219 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017952 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/House.fbx
+  artifactKey: Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/House.fbx using Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.118681 seconds  code(4) message(Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z')
+  ERROR: Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z'
+  Import took 0.124736 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015073 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/House.fbx
+  artifactKey: Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/House.fbx using Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.191330 seconds  code(4) message(Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z')
+  ERROR: Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z'
+  Import took 0.198268 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017011 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/House.fbx
+  artifactKey: Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/House.fbx using Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.182909 seconds  code(4) message(Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z')
+  ERROR: Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z'
+  Import took 0.194594 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013965 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/House.fbx
+  artifactKey: Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/House.fbx using Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.145202 seconds  code(4) message(Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z')
+  ERROR: Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z'
+  Import took 0.152076 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015242 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/House.fbx
+  artifactKey: Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/House.fbx using Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.169709 seconds  code(4) message(Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z')
+  ERROR: Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z'
+  Import took 0.176392 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024152 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/House.fbx
+  artifactKey: Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/House.fbx using Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.135414 seconds  code(4) message(Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z')
+  ERROR: Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z'
+  Import took 0.143189 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015144 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/House.fbx
+  artifactKey: Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/House.fbx using Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.153417 seconds  code(4) message(Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z')
+  ERROR: Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z'
+  Import took 0.166240 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013284 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/House.fbx
+  artifactKey: Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/House.fbx using Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.171904 seconds  code(4) message(Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z')
+  ERROR: Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z'
+  Import took 0.182265 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014033 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/House.fbx
+  artifactKey: Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/House.fbx using Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.125885 seconds  code(4) message(Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z')
+  ERROR: Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z'
+  Import took 0.133466 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009274 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/House.fbx
+  artifactKey: Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/House.fbx using Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.114241 seconds  code(4) message(Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z')
+  ERROR: Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z'
+  Import took 0.120709 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012806 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/House.fbx
+  artifactKey: Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/House.fbx using Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.106446 seconds  code(4) message(Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z')
+  ERROR: Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z'
+  Import took 0.113427 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010039 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/House.fbx
+  artifactKey: Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/House.fbx using Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.127401 seconds  code(4) message(Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z')
+  ERROR: Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z'
+  Import took 0.133067 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011889 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/House.fbx
+  artifactKey: Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/House.fbx using Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.116116 seconds  code(4) message(Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z')
+  ERROR: Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z'
+  Import took 0.122658 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013278 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/House.fbx
+  artifactKey: Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/House.fbx using Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.107337 seconds  code(4) message(Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z')
+  ERROR: Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z'
+  Import took 0.113527 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011710 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/House.fbx
+  artifactKey: Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/House.fbx using Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.114519 seconds  code(4) message(Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z')
+  ERROR: Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z'
+  Import took 0.120618 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015498 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/House.fbx
+  artifactKey: Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/House.fbx using Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.117314 seconds  code(4) message(Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z')
+  ERROR: Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z'
+  Import took 0.123521 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015259 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/House.fbx
+  artifactKey: Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/House.fbx using Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.116534 seconds  code(4) message(Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z')
+  ERROR: Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z'
+  Import took 0.122551 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014721 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/House.fbx
+  artifactKey: Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/House.fbx using Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.144501 seconds  code(4) message(Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z')
+  ERROR: Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z'
+  Import took 0.152935 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013451 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/House.fbx
+  artifactKey: Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/House.fbx using Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.131391 seconds  code(4) message(Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z')
+  ERROR: Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z'
+  Import took 0.140597 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010563 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/House.fbx
+  artifactKey: Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/House.fbx using Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.115616 seconds  code(4) message(Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z')
+  ERROR: Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z'
+  Import took 0.120805 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013113 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/House.fbx
+  artifactKey: Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/House.fbx using Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.120502 seconds  code(4) message(Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z')
+  ERROR: Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z'
+  Import took 0.127056 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014079 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/House.fbx
+  artifactKey: Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/House.fbx using Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.128409 seconds  code(4) message(Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z')
+  ERROR: Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z'
+  Import took 0.139675 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018927 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/House.fbx
+  artifactKey: Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/House.fbx using Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.148733 seconds  code(4) message(Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z')
+  ERROR: Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z'
+  Import took 0.155418 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014226 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/House.fbx
+  artifactKey: Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/House.fbx using Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.133955 seconds  code(4) message(Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z')
+  ERROR: Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z'
+  Import took 0.142958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010836 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/House.fbx
+  artifactKey: Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/House.fbx using Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.136325 seconds  code(4) message(Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z')
+  ERROR: Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z'
+  Import took 0.143731 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010419 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/House.fbx
+  artifactKey: Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/House.fbx using Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.115101 seconds  code(4) message(Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z')
+  ERROR: Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z'
+  Import took 0.121967 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009922 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/House.fbx
+  artifactKey: Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/House.fbx using Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.129897 seconds  code(4) message(Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z')
+  ERROR: Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z'
+  Import took 0.139719 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020143 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/House.fbx
+  artifactKey: Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/House.fbx using Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.137246 seconds  code(4) message(Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z')
+  ERROR: Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z'
+  Import took 0.153472 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014768 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/House.fbx
+  artifactKey: Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/House.fbx using Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.122805 seconds  code(4) message(Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z')
+  ERROR: Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z'
+  Import took 0.133475 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016204 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/House.fbx
+  artifactKey: Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/House.fbx using Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.146032 seconds  code(4) message(Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z')
+  ERROR: Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z'
+  Import took 0.162152 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.079337 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/House.fbx
+  artifactKey: Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/House.fbx using Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.155434 seconds  code(4) message(Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z')
+  ERROR: Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z'
+  Import took 0.162810 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.068972 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/House.fbx
+  artifactKey: Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/House.fbx using Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.120320 seconds  code(4) message(Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z')
+  ERROR: Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z'
+  Import took 0.126500 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.115267 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/House.fbx
+  artifactKey: Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/House.fbx using Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.128602 seconds  code(4) message(Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z')
+  ERROR: Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z'
+  Import took 0.138980 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.091307 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/House.fbx
+  artifactKey: Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/House.fbx using Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.116031 seconds  code(4) message(Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z')
+  ERROR: Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z'
+  Import took 0.123462 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.110444 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/House.fbx
+  artifactKey: Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/House.fbx using Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.145804 seconds  code(4) message(Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z')
+  ERROR: Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z'
+  Import took 0.153612 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.077724 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/House.fbx
+  artifactKey: Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/House.fbx using Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.157033 seconds  code(4) message(Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z')
+  ERROR: Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z'
+  Import took 0.163971 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.077656 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/House.fbx
+  artifactKey: Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/House.fbx using Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.150834 seconds  code(4) message(Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z')
+  ERROR: Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z'
+  Import took 0.157758 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.082770 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/House.fbx
+  artifactKey: Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/House.fbx using Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.139539 seconds  code(4) message(Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z')
+  ERROR: Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z'
+  Import took 0.145364 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.099348 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/House.fbx
+  artifactKey: Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/House.fbx using Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.117806 seconds  code(4) message(Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z')
+  ERROR: Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z'
+  Import took 0.123781 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.104287 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/House.fbx
+  artifactKey: Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/House.fbx using Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.126980 seconds  code(4) message(Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z')
+  ERROR: Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z'
+  Import took 0.134326 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.096457 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/House.fbx
+  artifactKey: Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/House.fbx using Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.137184 seconds  code(4) message(Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z')
+  ERROR: Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z'
+  Import took 0.143714 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.089081 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/House.fbx
+  artifactKey: Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/House.fbx using Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.127511 seconds  code(4) message(Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z')
+  ERROR: Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z'
+  Import took 0.134631 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.098369 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/House.fbx
+  artifactKey: Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/House.fbx using Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.135687 seconds  code(4) message(Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z')
+  ERROR: Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z'
+  Import took 0.143541 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.086334 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/House.fbx
+  artifactKey: Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/House.fbx using Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.168113 seconds  code(4) message(Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z')
+  ERROR: Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z'
+  Import took 0.174725 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.070390 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/House.fbx
+  artifactKey: Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/House.fbx using Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.127264 seconds  code(4) message(Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z')
+  ERROR: Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z'
+  Import took 0.139359 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.092655 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/House.fbx
+  artifactKey: Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/House.fbx using Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.134454 seconds  code(4) message(Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z')
+  ERROR: Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z'
+  Import took 0.140962 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.092248 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/House.fbx
+  artifactKey: Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/House.fbx using Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.137210 seconds  code(4) message(Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z')
+  ERROR: Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z'
+  Import took 0.145630 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.086995 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/House.fbx
+  artifactKey: Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/House.fbx using Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.149999 seconds  code(4) message(Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z')
+  ERROR: Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z'
+  Import took 0.157397 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.075258 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/House.fbx
+  artifactKey: Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/House.fbx using Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.125390 seconds  code(4) message(Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z')
+  ERROR: Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z'
+  Import took 0.134952 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.102729 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/House.fbx
+  artifactKey: Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/House.fbx using Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.130414 seconds  code(4) message(Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z')
+  ERROR: Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z'
+  Import took 0.137210 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.101832 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/House.fbx
+  artifactKey: Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/House.fbx using Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.133119 seconds  code(4) message(Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z')
+  ERROR: Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z'
+  Import took 0.139007 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.091786 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/House.fbx
+  artifactKey: Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/House.fbx using Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.134492 seconds  code(4) message(Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z')
+  ERROR: Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z'
+  Import took 0.140141 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.093603 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/House.fbx
+  artifactKey: Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/House.fbx using Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.133190 seconds  code(4) message(Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z')
+  ERROR: Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z'
+  Import took 0.139544 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.091245 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/House.fbx
+  artifactKey: Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/House.fbx using Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.120908 seconds  code(4) message(Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z')
+  ERROR: Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z'
+  Import took 0.126731 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.102313 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/House.fbx
+  artifactKey: Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/House.fbx using Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.119097 seconds  code(4) message(Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z')
+  ERROR: Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z'
+  Import took 0.125484 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.106067 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/House.fbx
+  artifactKey: Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/House.fbx using Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.153848 seconds  code(4) message(Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z')
+  ERROR: Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z'
+  Import took 0.163538 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.076476 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/House.fbx
+  artifactKey: Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/House.fbx using Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.139121 seconds  code(4) message(Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z')
+  ERROR: Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z'
+  Import took 0.145377 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.093394 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/House.fbx
+  artifactKey: Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/House.fbx using Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.136423 seconds  code(4) message(Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z')
+  ERROR: Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z'
+  Import took 0.142734 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.089007 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/House.fbx
+  artifactKey: Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/House.fbx using Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.167813 seconds  code(4) message(Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z')
+  ERROR: Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z'
+  Import took 0.175769 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.062022 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/House.fbx
+  artifactKey: Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/House.fbx using Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.133743 seconds  code(4) message(Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z')
+  ERROR: Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z'
+  Import took 0.140381 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.096089 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/House.fbx
+  artifactKey: Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/House.fbx using Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.164359 seconds  code(4) message(Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z')
+  ERROR: Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z'
+  Import took 0.175717 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.059784 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/House.fbx
+  artifactKey: Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/House.fbx using Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.140939 seconds  code(4) message(Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z')
+  ERROR: Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z'
+  Import took 0.153204 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.088192 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/House.fbx
+  artifactKey: Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/House.fbx using Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.119465 seconds  code(4) message(Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z')
+  ERROR: Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z'
+  Import took 0.129087 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.111541 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/House.fbx
+  artifactKey: Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/House.fbx using Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.122872 seconds  code(4) message(Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z')
+  ERROR: Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z'
+  Import took 0.130527 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.099736 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/House.fbx
+  artifactKey: Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/House.fbx using Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.129040 seconds  code(4) message(Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z')
+  ERROR: Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z'
+  Import took 0.135126 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.096902 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/House.fbx
+  artifactKey: Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/House.fbx using Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.124014 seconds  code(4) message(Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z')
+  ERROR: Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z'
+  Import took 0.131156 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.104614 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/House.fbx
+  artifactKey: Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/House.fbx using Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.122832 seconds  code(4) message(Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z')
+  ERROR: Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z'
+  Import took 0.128765 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.100873 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/House.fbx
+  artifactKey: Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/House.fbx using Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.160123 seconds  code(4) message(Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z')
+  ERROR: Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z'
+  Import took 0.165614 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.070720 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/House.fbx
+  artifactKey: Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/House.fbx using Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.118908 seconds  code(4) message(Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z')
+  ERROR: Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z'
+  Import took 0.126542 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.114922 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/House.fbx
+  artifactKey: Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/House.fbx using Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.113832 seconds  code(4) message(Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z')
+  ERROR: Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z'
+  Import took 0.120679 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010108 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/House.fbx
+  artifactKey: Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/House.fbx using Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.111230 seconds  code(4) message(Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z')
+  ERROR: Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z'
+  Import took 0.117923 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015077 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/House.fbx
+  artifactKey: Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/House.fbx using Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.126786 seconds  code(4) message(Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z')
+  ERROR: Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:25.5943482Z'
+  Import took 0.133203 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.102002 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/House.fbx
+  artifactKey: Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/House.fbx using Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.115951 seconds  code(4) message(Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:43.5404434Z')
+  ERROR: Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:43.5404434Z'
+  Import took 0.122423 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010958 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/House.fbx
+  artifactKey: Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/House.fbx using Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.148362 seconds  code(4) message(Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:43.5404434Z')
+  ERROR: Build asset version error: assets/《原神》神里屋敷 社奉行本部/house.fbx in SourceAssetDB has modification time of '2021-08-04T08:18:30.7983604Z' while content on disk has modification time of '2021-08-04T08:19:43.5404434Z'
+  Import took 0.157701 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.083771 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/House.fbx
+  artifactKey: Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/House.fbx using Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03e191ade1464f397d1b4a98ab9efe91') in 0.137069 seconds 
+  Import took 0.143572 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.562015 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/House.fbx
+  artifactKey: Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/House.fbx using Guid(74fc57d470af73e40a3148b8ae407f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0f1520822fb870773b6ca578810f30f') in 0.154727 seconds 
+  Import took 0.164092 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.454330 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/Readme.txt
+  artifactKey: Guid(2e87cb20b9e758449bc5e2466417e652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/Readme.txt using Guid(2e87cb20b9e758449bc5e2466417e652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cac494a2b7de8e380a2ea74661f9f04') in 0.082720 seconds 
+  Import took 0.089672 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 73.725765 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/Materials
+  artifactKey: Guid(7fa4eb21e23052a4a93b33adc2ef1ca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/Materials using Guid(7fa4eb21e23052a4a93b33adc2ef1ca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e69b20044f8c79190082a8b9cd093338') in 0.016031 seconds 
+  Import took 0.022589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.010888 seconds.
+  path: Assets/EffectImages/shenli1.gif
+  artifactKey: Guid(1a69430886e7ef54393a1bcaa9f44782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EffectImages/shenli1.gif using Guid(1a69430886e7ef54393a1bcaa9f44782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55ff748ff3ac2c6b636cd96d9d3d7299') in 0.084328 seconds 
+  Import took 0.101608 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.180321 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/Tex/Tex_0001.png
+  artifactKey: Guid(3c98b61b1f771ac409e25f2e7e06373b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/Tex/Tex_0001.png using Guid(3c98b61b1f771ac409e25f2e7e06373b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9759e0815aa54fdc5bff06cf7bd2c804') in 0.049335 seconds 
+  Import took 0.089813 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/Tex/Tex_0003.png
+  artifactKey: Guid(f7342a6142d85ef4199f2174d0a3b2e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/Tex/Tex_0003.png using Guid(f7342a6142d85ef4199f2174d0a3b2e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87706915c2f47ae85dc6b8b2045b6d00') in 0.043357 seconds 
+  Import took 0.056617 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/Tex/Tex_0003_G.png
+  artifactKey: Guid(0e5f0c54eb5cce440af5e6f579e32628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/Tex/Tex_0003_G.png using Guid(0e5f0c54eb5cce440af5e6f579e32628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48dfef1d271cf8900ffc2b98bb69f66a') in 0.044470 seconds 
+  Import took 0.052422 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/Tex/Tex_0003_M.png
+  artifactKey: Guid(cdd6bed30a914ff4cb070ac054a82905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/Tex/Tex_0003_M.png using Guid(cdd6bed30a914ff4cb070ac054a82905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '383e4d38cc8e38eba64e9de797ea2367') in 0.051983 seconds 
+  Import took 0.084575 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/Tex/Tex_0002_M.png
+  artifactKey: Guid(25f16f77b11a6f8459004fef019543eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/Tex/Tex_0002_M.png using Guid(25f16f77b11a6f8459004fef019543eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62c5704ca71799609b38c040af7cb11d') in 0.041323 seconds 
+  Import took 0.051006 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/Tex/Tex_0006.png
+  artifactKey: Guid(3f3ac537e486c804a8f384000d7b94ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/Tex/Tex_0006.png using Guid(3f3ac537e486c804a8f384000d7b94ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63deef06ea25de77feb1c67f2aa28429') in 0.046178 seconds 
+  Import took 0.054074 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000469 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/Tex/Tex_0006_A.png
+  artifactKey: Guid(0630b83f42c7a8c4db8f4b56abe7d2f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/Tex/Tex_0006_A.png using Guid(0630b83f42c7a8c4db8f4b56abe7d2f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa67eff728436f9734b4fe99fc3bc109') in 0.039034 seconds 
+  Import took 0.047229 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/Tex/Tex_0006_A2.png
+  artifactKey: Guid(4db6bd4063a9f654081963bc7efbe782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/Tex/Tex_0006_A2.png using Guid(4db6bd4063a9f654081963bc7efbe782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aea251812a05fb379d6593be3227aec') in 0.035785 seconds 
+  Import took 0.041059 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/Tex/Tex_0004.png
+  artifactKey: Guid(d1d63918231e8124299e9886650af779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/Tex/Tex_0004.png using Guid(d1d63918231e8124299e9886650af779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '719bcc5a7a8a38c4b9890e4cc43c562c') in 0.037481 seconds 
+  Import took 0.042513 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/Tex/Tex_0002_G.png
+  artifactKey: Guid(1d35c53cd587390489fa670bd8cbb866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/Tex/Tex_0002_G.png using Guid(1d35c53cd587390489fa670bd8cbb866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3299910e215236cfb7f313c90f60beba') in 0.043612 seconds 
+  Import took 0.050054 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/Tex/Tex_0003_N.png
+  artifactKey: Guid(e0ce42094a25da440974ced9cdb583a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/Tex/Tex_0003_N.png using Guid(e0ce42094a25da440974ced9cdb583a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b61c302531da69c4fc5bdf7ac220e37') in 0.051764 seconds 
+  Import took 0.061448 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000913 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/Tex/Tex_0007.png
+  artifactKey: Guid(107ea209682b6d84d8d0e28cf9176196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/Tex/Tex_0007.png using Guid(107ea209682b6d84d8d0e28cf9176196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15a4ad896a5a9d650594c02afc03e2fb') in 0.079308 seconds 
+  Import took 0.093568 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001380 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/Tex/Tex_0007_N.png
+  artifactKey: Guid(e2a31898e6a5fef458e08d8b497a58ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/Tex/Tex_0007_N.png using Guid(e2a31898e6a5fef458e08d8b497a58ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e14e12078d15bc8b47f34eb5179026f4') in 0.075195 seconds 
+  Import took 0.084115 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/Tex/Tex_0008_M.png
+  artifactKey: Guid(db59f453d8f0a084fb3ed7b302af9356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/Tex/Tex_0008_M.png using Guid(db59f453d8f0a084fb3ed7b302af9356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f17831afbfb34efb712c59eb100d9307') in 0.061448 seconds 
+  Import took 0.066945 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/Tex/Tex_0007_A.png
+  artifactKey: Guid(dfb2cfda3211bc0459f3114e5e4b90b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/Tex/Tex_0007_A.png using Guid(dfb2cfda3211bc0459f3114e5e4b90b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae26ca788c4a25a6746d34fd51299b08') in 0.061357 seconds 
+  Import took 0.068231 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/Tex/Tex_0009.png
+  artifactKey: Guid(8d9cd47d5b2dc2041a6e6c52b4656314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/Tex/Tex_0009.png using Guid(8d9cd47d5b2dc2041a6e6c52b4656314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39da1769c3d59293fb2e9acb10153f2b') in 0.041459 seconds 
+  Import took 0.055113 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/Tex/Tex_0005_M.png
+  artifactKey: Guid(56272b01d04cd7843999c6a0a0c2c6ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/Tex/Tex_0005_M.png using Guid(56272b01d04cd7843999c6a0a0c2c6ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e9cc32c0bfc9e56f4a43e652fd70094') in 0.041043 seconds 
+  Import took 0.056748 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/Tex/Tex_0001_G.png
+  artifactKey: Guid(d33aa65cf45c6d7498f751ef1f25ce61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/Tex/Tex_0001_G.png using Guid(d33aa65cf45c6d7498f751ef1f25ce61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16414c79ba8b4ecc8eb83cdf957ea286') in 0.038880 seconds 
+  Import took 0.045416 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000368 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/Tex/Tex_0002_N.png
+  artifactKey: Guid(7a554ebc482fcad459bbe3f34395aa9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/Tex/Tex_0002_N.png using Guid(7a554ebc482fcad459bbe3f34395aa9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c283a4ba6f68f24a8ca7eaa8bdbba5e8') in 0.041931 seconds 
+  Import took 0.049363 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/Tex/Tex_0001_N.png
+  artifactKey: Guid(82964bd15fb687f4aa89a67e288f270a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/Tex/Tex_0001_N.png using Guid(82964bd15fb687f4aa89a67e288f270a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ac87db23ffc8138d879e4e9e859581d') in 0.046067 seconds 
+  Import took 0.053852 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000374 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/Tex/Tex_0006_N.png
+  artifactKey: Guid(61eeea723c8cd9744bf037426264cae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/Tex/Tex_0006_N.png using Guid(61eeea723c8cd9744bf037426264cae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54f0fe7b2d7fa1f297900cfcc9c7bc72') in 0.051185 seconds 
+  Import took 0.057640 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/Tex/Tex_0008_N.png
+  artifactKey: Guid(8ba618687f8d03143b2b6e2e49e9baf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/Tex/Tex_0008_N.png using Guid(8ba618687f8d03143b2b6e2e49e9baf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f96f10eccdf653a77cea4693c2b529bf') in 0.046260 seconds 
+  Import took 0.055132 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000365 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/Tex/Tex_0001_M.png
+  artifactKey: Guid(4e3d3cb9ff024634a958e2ba205e8dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/Tex/Tex_0001_M.png using Guid(4e3d3cb9ff024634a958e2ba205e8dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de0093f7724a974efc275f8f794ae683') in 0.047736 seconds 
+  Import took 0.055351 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/Tex/Tex_0005_N.png
+  artifactKey: Guid(bcbae9dda3c7d0a47aa9746e5bb0c57d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/Tex/Tex_0005_N.png using Guid(bcbae9dda3c7d0a47aa9746e5bb0c57d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58f62cec5153ad6732dc20539a627d84') in 0.050986 seconds 
+  Import took 0.064417 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/Tex/Tex_0005_E.png
+  artifactKey: Guid(99b7f26eff1ea6b41ad2a62da533916f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/Tex/Tex_0005_E.png using Guid(99b7f26eff1ea6b41ad2a62da533916f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31143cdb1c02e216b4c30867483bae1f') in 0.086520 seconds 
+  Import took 0.102387 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/Tex/Tex_0005_G.png
+  artifactKey: Guid(e985241bbe8b4c04abb537b0c8fa7411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/Tex/Tex_0005_G.png using Guid(e985241bbe8b4c04abb537b0c8fa7411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0233bc20faabaa82b1a81bfd14649c9d') in 0.064745 seconds 
+  Import took 0.073619 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000698 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/Tex/Tex_0006_M.png
+  artifactKey: Guid(645cd0e6bb813c04caf35c388d465c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/Tex/Tex_0006_M.png using Guid(645cd0e6bb813c04caf35c388d465c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06a3feefe3377246aa3c5fed29fc868a') in 0.036306 seconds 
+  Import took 0.052010 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/Tex/Tex_0006_E.png
+  artifactKey: Guid(3c0a68d9df2c72e4daa04aa0657e6db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/Tex/Tex_0006_E.png using Guid(3c0a68d9df2c72e4daa04aa0657e6db3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4efe6a8cec8c4086c01249c4a350893b') in 0.034866 seconds 
+  Import took 0.041375 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/Tex/Tex_0004_M.png
+  artifactKey: Guid(aeadf80c2371783458c14761a200d0c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/Tex/Tex_0004_M.png using Guid(aeadf80c2371783458c14761a200d0c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8a1c03c1c20bb170fb08968d3b046e0') in 0.034939 seconds 
+  Import took 0.041790 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/Tex/Tex_0003_A.png
+  artifactKey: Guid(5d751d6cc86cf0b40b39f3f543b5c839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/Tex/Tex_0003_A.png using Guid(5d751d6cc86cf0b40b39f3f543b5c839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3ff04d9913ad808c60ba657dcff351e') in 0.035884 seconds 
+  Import took 0.042565 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/Tex/Tex_0005_A.png
+  artifactKey: Guid(342a23d3681d64c449e94740211f2e07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/Tex/Tex_0005_A.png using Guid(342a23d3681d64c449e94740211f2e07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6871f78c715454773b5005e725486850') in 0.039555 seconds 
+  Import took 0.045212 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/Tex/Tex_0005_A2.png
+  artifactKey: Guid(39930ccbf3d142a4d8a566ca1a6fa6b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/Tex/Tex_0005_A2.png using Guid(39930ccbf3d142a4d8a566ca1a6fa6b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65fc6f87c72c8a6bb8968337779f7a1a') in 0.043282 seconds 
+  Import took 0.049335 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/Tex/Tex_0005.png
+  artifactKey: Guid(bfddf73d0e2530043b934f522df2b8c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/Tex/Tex_0005.png using Guid(bfddf73d0e2530043b934f522df2b8c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56464170342e41c20d12c2a2f1c8c785') in 0.042605 seconds 
+  Import took 0.051268 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/Tex/Tex_0008_G.png
+  artifactKey: Guid(83b8ab5a36a068043926fcf57e7ac08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/Tex/Tex_0008_G.png using Guid(83b8ab5a36a068043926fcf57e7ac08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a292136c0b7a58c29099fead4b5267b5') in 0.042299 seconds 
+  Import took 0.049006 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/Tex/Tex_0009_A.png
+  artifactKey: Guid(c7f1266566e2fa746b524e77fec6e687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/Tex/Tex_0009_A.png using Guid(c7f1266566e2fa746b524e77fec6e687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a56277b38c6ee8b9d341c8cdaa30eed7') in 0.037409 seconds 
+  Import took 0.044048 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/Tex/Tex_0003_A2.png
+  artifactKey: Guid(4772b33994098704ba265d7cde3767f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/Tex/Tex_0003_A2.png using Guid(4772b33994098704ba265d7cde3767f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec9e812031013ceac14cc581a5cd6414') in 0.036855 seconds 
+  Import took 0.047979 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/Tex/Tex_0004_N.png
+  artifactKey: Guid(a3b02d77dc4f9c640be7c6dd058303fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/Tex/Tex_0004_N.png using Guid(a3b02d77dc4f9c640be7c6dd058303fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67298963cf517c7d10889615e0863595') in 0.048434 seconds 
+  Import took 0.055558 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/Tex/Tex_0008.png
+  artifactKey: Guid(fbd767d1126e6f949be46c76eb123cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/Tex/Tex_0008.png using Guid(fbd767d1126e6f949be46c76eb123cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbbbe5f49750a13af5533f5a7e6404d4') in 0.056128 seconds 
+  Import took 0.064444 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/Tex/Tex_0007_G.png
+  artifactKey: Guid(97f7bffb8ff6cc041a8f663fda465088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/Tex/Tex_0007_G.png using Guid(97f7bffb8ff6cc041a8f663fda465088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41c017d8e5928d00aaa12df67e6df186') in 0.056673 seconds 
+  Import took 0.065946 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000714 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/Tex/Tex_0002.png
+  artifactKey: Guid(83e17e2d43009f742bedc363bb095dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/Tex/Tex_0002.png using Guid(83e17e2d43009f742bedc363bb095dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adbb0dff7b6e7106a6feb6d9600448b2') in 0.045631 seconds 
+  Import took 0.058409 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/Tex/Tex_0004_G.png
+  artifactKey: Guid(5058ea75fc3931541a4b389ed29f21ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/Tex/Tex_0004_G.png using Guid(5058ea75fc3931541a4b389ed29f21ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd30b2647a1b6d2f046c427e2feec8ea9') in 0.039586 seconds 
+  Import took 0.049038 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000717 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/Tex/Tex_0006_G.png
+  artifactKey: Guid(3cb21176c2dce2146b562cd909036c20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/Tex/Tex_0006_G.png using Guid(3cb21176c2dce2146b562cd909036c20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8232a1abb0ba96101f16c9f45f5517f8') in 0.035470 seconds 
+  Import took 0.042241 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000427 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/Tex/Tex_0004_G.png
+  artifactKey: Guid(5058ea75fc3931541a4b389ed29f21ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/Tex/Tex_0004_G.png using Guid(5058ea75fc3931541a4b389ed29f21ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd30b2647a1b6d2f046c427e2feec8ea9') in 0.033550 seconds 
+  Import took 0.039855 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/Tex/Tex_0007_A2.png
+  artifactKey: Guid(138aebe4c3241b147b878cca23f0907a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/Tex/Tex_0007_A2.png using Guid(138aebe4c3241b147b878cca23f0907a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eb09649aa650a438e0af171a5b8ac86') in 0.033802 seconds 
+  Import took 0.042121 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/Tex/Tex_0010_M.png
+  artifactKey: Guid(8cd2707d5bda156418de635ba4dce015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/Tex/Tex_0010_M.png using Guid(8cd2707d5bda156418de635ba4dce015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5fbd5b75958033c820c328753a8810c') in 0.061298 seconds 
+  Import took 0.075866 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000498 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/Tex/Tex_0010.png
+  artifactKey: Guid(09cd78ee8e2643f45b72102696793cf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/Tex/Tex_0010.png using Guid(09cd78ee8e2643f45b72102696793cf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c06fa743d5921a25beddb501e5661ff7') in 0.053202 seconds 
+  Import took 0.061418 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/Tex/Tex_0010_G.png
+  artifactKey: Guid(45008b0f7c2aaf14f859369c57bbdb72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/Tex/Tex_0010_G.png using Guid(45008b0f7c2aaf14f859369c57bbdb72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b8f9514c9db248dc5ab18b34003adef') in 0.067972 seconds 
+  Import took 0.075522 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/Tex/Tex_0010_N.png
+  artifactKey: Guid(636a3511ebc6c8643983267afcf18c88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/Tex/Tex_0010_N.png using Guid(636a3511ebc6c8643983267afcf18c88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10881c0ab2e16010091b2ee0f0f282f4') in 0.075965 seconds 
+  Import took 0.083187 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/Tex/Tex_0007_M.png
+  artifactKey: Guid(c03530cf22d41934c8d8a2aec1432117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/Tex/Tex_0007_M.png using Guid(c03530cf22d41934c8d8a2aec1432117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14757bd644d067613ddee800dbbd24eb') in 0.048572 seconds 
+  Import took 0.056030 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000781 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/Tex/Tex_0007_M.png
+  artifactKey: Guid(c03530cf22d41934c8d8a2aec1432117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/Tex/Tex_0007_M.png using Guid(c03530cf22d41934c8d8a2aec1432117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14757bd644d067613ddee800dbbd24eb') in 0.057973 seconds 
+  Import took 0.066593 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 423.223019 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/Materials/001.mat
+  artifactKey: Guid(46c0c109660610a4fab8afe834370467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/Materials/001.mat using Guid(46c0c109660610a4fab8afe834370467) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader error in 'ToonLitOutline': Couldn't open include file 'ToonLitForward.hlsl'. at line 129
+
+Compiling Fragment program with _ADDITIONAL_LIGHTS ENABLE_SPECULAR_MAP
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING
+Disabled keywords: _MAIN_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS_CASCADE _ADDITIONAL_LIGHTS_VERTEX _ADDITIONAL_LIGHT_SHADOWS _SHADOWS_SOFT FOG_LINEAR FOG_EXP FOG_EXP2 _UseAlphaClipping ENABLE_ALPHA_CLIPPING ENABLE_BLOOM_MASK ENABLE_FACE_SHADOW_MAP ENABLE_EMISSION UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader warning in 'ToonLitOutline': 'Sample': implicit truncation of vector type at Assets/ToonShade/ToonLitForward.hlsl(98) (on d3d11)
+
+Compiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING
+Disabled keywords: _MAIN_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS_CASCADE _ADDITIONAL_LIGHTS_VERTEX _ADDITIONAL_LIGHTS UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader warning in 'ToonLitOutline': 'Sample': implicit truncation of vector type at Assets/ToonShade/ToonLitForward.hlsl(199) (on d3d11)
+
+Compiling Fragment program with _MAIN_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS_CASCADE _SHADOWS_SOFT ENABLE_SPECULAR_MAP
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING
+Disabled keywords: _ADDITIONAL_LIGHTS_VERTEX _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS FOG_LINEAR FOG_EXP FOG_EXP2 _UseAlphaClipping ENABLE_ALPHA_CLIPPING ENABLE_BLOOM_MASK ENABLE_FACE_SHADOW_MAP ENABLE_EMISSION UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+ -> (artifact id: '4997bf5e771fc441b2c662a584fea0c9') in 0.186498 seconds 
+  Import took 0.200940 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/Materials/005.mat
+  artifactKey: Guid(b69b17b6dd11f1045ba349f5f64e302e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/Materials/005.mat using Guid(b69b17b6dd11f1045ba349f5f64e302e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6069e34e7788e0a909d8a52b0948f71c') in 0.041685 seconds 
+  Import took 0.046649 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/Materials/007.mat
+  artifactKey: Guid(0c0ad36501f931a48a4db52d66942608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/Materials/007.mat using Guid(0c0ad36501f931a48a4db52d66942608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bd38067a67c297426e06951d1501064') in 0.037978 seconds 
+  Import took 0.043290 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/Materials/008.mat
+  artifactKey: Guid(eac33dbb710992548a163e5a4da50725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/Materials/008.mat using Guid(eac33dbb710992548a163e5a4da50725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3c8b4b8e91e8105e640b7094d1abeb0') in 0.036897 seconds 
+  Import took 0.042186 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/Materials/004.mat
+  artifactKey: Guid(1302af55ab460b24f96de55ef553a73d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/Materials/004.mat using Guid(1302af55ab460b24f96de55ef553a73d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fb54b8cfd63fdd73ae803aa11403884') in 0.042460 seconds 
+  Import took 0.059641 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/Materials/006.mat
+  artifactKey: Guid(72f5f1b16aa313e4a894d61e9654664b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/Materials/006.mat using Guid(72f5f1b16aa313e4a894d61e9654664b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb86647b47ce3c0d82dbfd5587fae66a') in 0.040919 seconds 
+  Import took 0.057196 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/Materials/003.mat
+  artifactKey: Guid(0031bc7251296d6438c73ebda9acd92d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/Materials/003.mat using Guid(0031bc7251296d6438c73ebda9acd92d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dae01f3b5a05eb7de644cfc768483779') in 0.040552 seconds 
+  Import took 0.048210 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000586 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/Materials/002.mat
+  artifactKey: Guid(949fdced2b851b04bbf87be83e098691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/Materials/002.mat using Guid(949fdced2b851b04bbf87be83e098691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36f0dc9283b5fab3a756b06fddeb1772') in 0.042185 seconds 
+  Import took 0.047822 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 110.883792 seconds.
+  path: Assets/ToonShade/Shader/ToonLitOutline.shader
+  artifactKey: Guid(a7ba8dc624514a33ba5f1854859647b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonShade/Shader/ToonLitOutline.shader using Guid(a7ba8dc624514a33ba5f1854859647b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8945be2f2aaf6e1e0365573eb3ac69b4') in 0.023225 seconds 
+  Import took 0.030142 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2560.076496 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader
+  artifactKey: Guid(933532a4fcc9baf4fa0491de14d08ed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader using Guid(933532a4fcc9baf4fa0491de14d08ed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c1e02698ecc8bf2c1f10e4856fddaf7') in 0.027635 seconds 
+  Import took 0.081409 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 57.585044 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Shaders/LitForwardPass.hlsl
+  artifactKey: Guid(116bd973269b9f741b7177c8523b9e50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Shaders/LitForwardPass.hlsl using Guid(116bd973269b9f741b7177c8523b9e50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '397888ad67724908e4bdea1fd27f5ccf') in 0.022936 seconds 
+  Import took 0.028559 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1320.853428 seconds.
+  path: Assets/ToonShade/Shader/ToonLitOutline.shader
+  artifactKey: Guid(a7ba8dc624514a33ba5f1854859647b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonShade/Shader/ToonLitOutline.shader using Guid(a7ba8dc624514a33ba5f1854859647b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77f5a82638f35274e239df99256b079d') in 0.017976 seconds 
+  Import took 0.038918 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001126 seconds.
+  path: Assets/ToonShade/Shader/ToonLitOutline.shader
+  artifactKey: Guid(a7ba8dc624514a33ba5f1854859647b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonShade/Shader/ToonLitOutline.shader using Guid(a7ba8dc624514a33ba5f1854859647b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77f5a82638f35274e239df99256b079d') in 0.020802 seconds 
+  Import took 0.027112 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 169.467775 seconds.
+  path: Assets/ToonShade/Shader/ToonLitOutline.shader
+  artifactKey: Guid(a7ba8dc624514a33ba5f1854859647b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonShade/Shader/ToonLitOutline.shader using Guid(a7ba8dc624514a33ba5f1854859647b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb061d5295fc0833603ac244863bfdbb') in 0.017762 seconds 
+  Import took 0.023815 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.562488 seconds.
+  path: Assets/ToonShade/Shader/ToonLitOutline.shader
+  artifactKey: Guid(a7ba8dc624514a33ba5f1854859647b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonShade/Shader/ToonLitOutline.shader using Guid(a7ba8dc624514a33ba5f1854859647b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fa4f6af83de41596e7d96439aa01055') in 0.017551 seconds 
+  Import took 0.047359 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.845157 seconds.
+  path: Assets/ToonShade/Shader/ToonLitOutline.shader
+  artifactKey: Guid(a7ba8dc624514a33ba5f1854859647b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonShade/Shader/ToonLitOutline.shader using Guid(a7ba8dc624514a33ba5f1854859647b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26b6572eec90264aa46bb7f292d409ae') in 0.017608 seconds 
+  Import took 0.025279 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 343.715328 seconds.
+  path: Assets/ToonShade/Shader/ToonLitOutline.shader
+  artifactKey: Guid(a7ba8dc624514a33ba5f1854859647b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonShade/Shader/ToonLitOutline.shader using Guid(a7ba8dc624514a33ba5f1854859647b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db9473b9b7af1110e0c652b123a057a0') in 0.112117 seconds 
+  Import took 0.135740 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.329275 seconds.
+  path: Assets/ToonShade/Shader/ToonLitOutline.shader
+  artifactKey: Guid(a7ba8dc624514a33ba5f1854859647b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonShade/Shader/ToonLitOutline.shader using Guid(a7ba8dc624514a33ba5f1854859647b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db9473b9b7af1110e0c652b123a057a0') in 0.039427 seconds 
+  Import took 0.076458 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 640.581390 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Shaders/ShadowCasterPass.hlsl
+  artifactKey: Guid(9a48a2987a0e11645adf07fe4a8d5ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.universal/Shaders/ShadowCasterPass.hlsl using Guid(9a48a2987a0e11645adf07fe4a8d5ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c89fc797aa6f02c5af730409da9e117') in 0.022172 seconds 
+  Import took 0.054680 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

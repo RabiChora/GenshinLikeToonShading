@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="00db06c1-f0ac-4f0c-b06c-757f751bc706" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.5.0/ShaderLibrary/Input.hlsl" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.5.0/Shaders/ShadowCasterPass.hlsl" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@10.5.0/ShaderLibrary/Common.hlsl" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.5.0/ShaderLibrary/UnityInput.hlsl" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@10.5.0/ShaderLibrary/Packing.hlsl" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.5.0/ShaderLibrary/SurfaceData.hlsl" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@10.5.0/ShaderLibrary/ImageBasedLighting.hlsl" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@10.5.0/ShaderLibrary/BSDF.hlsl" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.5.0/ShaderLibrary/SurfaceInput.hlsl" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.5.0/ShaderLibrary/ShaderVariablesFunctions.hlsl" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@10.5.0/ShaderLibrary/EntityLighting.hlsl" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.5.0/ShaderLibrary/Shadows.hlsl" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.5.0/Shaders/LitForwardPass.hlsl" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.5.0/ShaderLibrary/Lighting.hlsl" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.5.0/ShaderLibrary/Core.hlsl" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@10.5.0/ShaderLibrary/Version.hlsl" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@10.5.0/ShaderLibrary/API/D3D11.hlsl" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@10.5.0/ShaderLibrary/SpaceTransforms.hlsl" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@10.5.0/ShaderLibrary/Color.hlsl" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@10.5.0/ShaderLibrary/ACES.hlsl" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@10.5.0/ShaderLibrary/Macros.hlsl" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/ToonShaderFramework/UnityURPToonLitShaderExample-master/SimpleURPToonLitOutlineExample.shader" />
+        <option value="$PROJECT_DIR$/Assets/ToonShaderFramework/UnityURPToonLitShaderExample-master/SimpleURPToonLitOutlineExample_Shared.hlsl" />
+        <option value="$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.5.0/ShaderLibrary/UnityInput.hlsl" />
+        <option value="$PROJECT_DIR$/Assets/ToonShaderFramework/CustomInclude.hlsl" />
+        <option value="$PROJECT_DIR$/Assets/ToonShaderFramework/SimpleToonLitForward.hlsl" />
+        <option value="$PROJECT_DIR$/Assets/ToonShaderFramework/CumstomLighting.hlsl" />
+        <option value="$PROJECT_DIR$/Assets/ToonShaderFramework/CustomInput.hlsl" />
+        <option value="$PROJECT_DIR$/Assets/ToonShaderFramework/ToonLitWithOutline.hlsl" />
+        <option value="$PROJECT_DIR$/Assets/ToonShaderFramework/SimpleToonShader.shader" />
+        <option value="$PROJECT_DIR$/Assets/ToonShaderFramework/GenshinToon.shader" />
+        <option value="$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@10.5.0/ShaderLibrary/Macros.hlsl" />
+        <option value="$PROJECT_DIR$/Assets/ToonShade/CustomLighting.hlsl" />
+        <option value="$PROJECT_DIR$/Assets/ToonShade/CustomInput.hlsl" />
+        <option value="$PROJECT_DIR$/Assets/ToonShade/SimpleToonFunctions.hlsl" />
+        <option value="$PROJECT_DIR$/Assets/ToonShade/ToonLitForward.hlsl" />
+        <option value="$PROJECT_DIR$/Assets/ToonShade/ToonLitInput.hlsl" />
+        <option value="$PROJECT_DIR$/Assets/ToonShade/ToonLitLightingEquation.hlsl" />
+        <option value="$PROJECT_DIR$/Assets/ToonShade/ToonLitOutline.shader" />
+        <option value="$PROJECT_DIR$/Assets/ToonShade/Shader/ToonLitLightingEquation.hlsl" />
+        <option value="$PROJECT_DIR$/Assets/ToonShade/Shader/ToonLitForward.hlsl" />
+        <option value="$PROJECT_DIR$/Assets/ToonShade/Shader/ToonLitInput.hlsl" />
+        <option value="$PROJECT_DIR$/Assets/ToonShade/Shader/ToonLitOutline.shader" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1wCbfXHGSW4dU2qbgrceiLBs5fB" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="00db06c1-f0ac-4f0c-b06c-757f751bc706" name="Default Changelist" comment="" />
+      <created>1627965623254</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1627965623254</updated>
+      <workItem from="1627965627901" duration="21298000" />
+      <workItem from="1628042492511" duration="22119000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="519" y="172" width="1184" height="711" key="SettingsEditor" timestamp="1627994920119">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="519" y="172" width="1184" height="711" key="SettingsEditor/0.0.1920.1160@0.0.1920.1160" timestamp="1627994920119" />
+    <state x="616" y="270" key="run.anything.popup" timestamp="1628061438898">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="616" y="270" key="run.anything.popup/0.0.1920.1160@0.0.1920.1160" timestamp="1628061438898" />
+    <state x="388" y="220" width="945" height="678" key="search.everywhere.popup" timestamp="1628071091435">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="388" y="220" width="945" height="678" key="search.everywhere.popup/0.0.1920.1160@0.0.1920.1160" timestamp="1628071091435" />
+  </component>
+</project>

@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\rabichorali\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\rabichorali\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_ShadingFrameworkProj.-1070379473.00" t="ExcludeRecursive" />
+    <e p="C:\Users\rabichorali\AppData\Roaming\JetBrains\Rider2020.2\scratches" t="IncludeRecursive" />
+    <e p="E:\ShadingFrameworkProj" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Scripts" t="Include">
+          <e p="SimpleCameraController.cs" t="Include" />
+        </e>
+        <e p="ShenliLinghua" t="Include">
+          <e p="tex" t="Include">
+            <e p="readme【一定要看】.txt" t="Include" />
+          </e>
+        </e>
+        <e p="Toon" t="Include">
+          <e p="Editor" t="Include">
+            <e p="CopyMaterialParameter.cs" t="Include" />
+            <e p="RemoveUnusedMaterialProperties.cs" t="Include" />
+            <e p="RemoveUnusedShaderKeywordsFromUTS2Material.cs" t="Include" />
+            <e p="UTS2GUI.cs" t="Include" />
+          </e>
+          <e p="Shader" t="Include">
+            <e p="README.txt" t="Include" />
+            <e p="Tess" t="Include">
+              <e p="Toon_DoubleShadeWithFeather_Clipping_Tess.shader" t="Include" />
+              <e p="Toon_DoubleShadeWithFeather_Clipping_Tess_StencilMask.shader" t="Include" />
+              <e p="Toon_DoubleShadeWithFeather_Clipping_Tess_StencilOut.shader" t="Include" />
+              <e p="Toon_DoubleShadeWithFeather_Tess.shader" t="Include" />
+              <e p="Toon_DoubleShadeWithFeather_Tess_Light.shader" t="Include" />
+              <e p="Toon_DoubleShadeWithFeather_Tess_Light_StencilMask.shader" t="Include" />
+              <e p="Toon_DoubleShadeWithFeather_Tess_Light_StencilOut.shader" t="Include" />
+              <e p="Toon_DoubleShadeWithFeather_Tess_StencilMask.shader" t="Include" />
+              <e p="Toon_DoubleShadeWithFeather_Tess_StencilOut.shader" t="Include" />
+              <e p="Toon_DoubleShadeWithFeather_TransClipping_Tess.shader" t="Include" />
+              <e p="Toon_DoubleShadeWithFeather_TransClipping_Tess_StencilMask.shader" t="Include" />
+              <e p="Toon_DoubleShadeWithFeather_TransClipping_Tess_StencilOut.shader" t="Include" />
+              <e p="Toon_OutlineObject_Tess.shader" t="Include" />
+              <e p="Toon_OutlineObject_Tess_StencilOut.shader" t="Include" />
+              <e p="Toon_ShadingGradeMap_AngelRing_Tess.shader" t="Include" />
+              <e p="Toon_ShadingGradeMap_AngelRing_Tess_Light.shader" t="Include" />
+              <e p="Toon_ShadingGradeMap_AngelRing_Tess_Light_StencilOut.shader" t="Include" />
+              <e p="Toon_ShadingGradeMap_AngelRing_Tess_StencilOut.shader" t="Include" />
+              <e p="Toon_ShadingGradeMap_AngelRing_TransClipping_Tess.shader" t="Include" />
+              <e p="Toon_ShadingGradeMap_AngelRing_TransClipping_Tess_StencilOut.shader" t="Include" />
+              <e p="Toon_ShadingGradeMap_Tess.shader" t="Include" />
+              <e p="Toon_ShadingGradeMap_Tess_Light.shader" t="Include" />
+              <e p="Toon_ShadingGradeMap_Tess_Light_StencilMask.shader" t="Include" />
+              <e p="Toon_ShadingGradeMap_Tess_Light_StencilOut.shader" t="Include" />
+              <e p="Toon_ShadingGradeMap_Tess_StencilMask.shader" t="Include" />
+              <e p="Toon_ShadingGradeMap_Tess_StencilOut.shader" t="Include" />
+              <e p="Toon_ShadingGradeMap_TransClipping_Tess.shader" t="Include" />
+              <e p="Toon_ShadingGradeMap_TransClipping_Tess_StencilMask.shader" t="Include" />
+              <e p="Toon_ShadingGradeMap_TransClipping_Tess_StencilOut.shader" t="Include" />
+              <e p="ToonColor_DoubleShadeWithFeather_Clipping_Tess.shader" t="Include" />
+              <e p="ToonColor_DoubleShadeWithFeather_Clipping_Tess_StencilMask.shader" t="Include" />
+              <e p="ToonColor_DoubleShadeWithFeather_Clipping_Tess_StencilOut.shader" t="Include" />
+              <e p="ToonColor_DoubleShadeWithFeather_Tess.shader" t="Include" />
+              <e p="ToonColor_DoubleShadeWithFeather_Tess_StencilMask.shader" t="Include" />
+              <e p="ToonColor_DoubleShadeWithFeather_Tess_StencilOut.shader" t="Include" />
+              <e p="ToonColor_DoubleShadeWithFeather_TransClipping_Tess.shader" t="Include" />
+              <e p="ToonColor_DoubleShadeWithFeather_TransClipping_Tess_StencilMask.shader" t="Include" />
+              <e p="ToonColor_DoubleShadeWithFeather_TransClipping_Tess_StencilOut.shader" t="Include" />
+              <e p="ToonColor_DoubleShadeWithFeather_Transparent_Tess.shader" t="Include" />
+              <e p="ToonColor_DoubleShadeWithFeather_Transparent_Tess_StencilOut.shader" t="Include" />
+              <e p="ToonColor_ShadingGradeMap_AngelRing_Tess.shader" t="Include" />
+              <e p="ToonColor_ShadingGradeMap_AngelRing_Tess_StencilOut.shader" t="Include" />
+              <e p="ToonColor_ShadingGradeMap_AngelRing_Tess_TransClipping.shader" t="Include" />
+              <e p="ToonColor_ShadingGradeMap_AngelRing_TransClipping_Tess_StencilOut.shader" t="Include" />
+              <e p="ToonColor_ShadingGradeMap_Tess.shader" t="Include" />
+              <e p="ToonColor_ShadingGradeMap_Tess_StencilMask.shader" t="Include" />
+              <e p="ToonColor_ShadingGradeMap_Tess_StencilOut.shader" t="Include" />
+              <e p="ToonColor_ShadingGradeMap_TransClipping_Tess.shader" t="Include" />
+              <e p="ToonColor_ShadingGradeMap_TransClipping_Tess_StencilMask.shader" t="Include" />
+              <e p="ToonColor_ShadingGradeMap_TransClipping_Tess_StencilOut.shader" t="Include" />
+              <e p="ToonColor_ShadingGradeMap_Transparent_Tess.shader" t="Include" />
+              <e p="ToonColor_ShadingGradeMap_Transparent_Tess_StencilOut.shader" t="Include" />
+              <e p="UCTS_DoubleShadeWithFeather_tess.cginc" t="Include" />
+              <e p="UCTS_Outline_Tess.cginc" t="Include" />
+              <e p="UCTS_ShadingGradeMap_tess.cginc" t="Include" />
+              <e p="UCTS_ShadowCaster_Tess.cginc" t="Include" />
+              <e p="UCTS_Tess.cginc" t="Include" />
+            </e>
+            <e p="Toon_DoubleShadeWithFeather.shader" t="Include" />
+            <e p="Toon_DoubleShadeWithFeather_Clipping.shader" t="Include" />
+            <e p="Toon_DoubleShadeWithFeather_Clipping_StencilMask.shader" t="Include" />
+            <e p="Toon_DoubleShadeWithFeather_Clipping_StencilOut.shader" t="Include" />
+            <e p="Toon_DoubleShadeWithFeather_Mobile.shader" t="Include" />
+            <e p="Toon_DoubleShadeWithFeather_Mobile_Clipping.shader" t="Include" />
+            <e p="Toon_DoubleShadeWithFeather_Mobile_Clipping_StencilMask.shader" t="Include" />
+            <e p="Toon_DoubleShadeWithFeather_Mobile_StencilMask.shader" t="Include" />
+            <e p="Toon_DoubleShadeWithFeather_Mobile_StencilOut.shader" t="Include" />
+            <e p="Toon_DoubleShadeWithFeather_Mobile_TransClipping.shader" t="Include" />
+            <e p="Toon_DoubleShadeWithFeather_Mobile_TransClipping_StencilMask.shader" t="Include" />
+            <e p="Toon_DoubleShadeWithFeather_StencilMask.shader" t="Include" />
+            <e p="Toon_DoubleShadeWithFeather_StencilOut.shader" t="Include" />
+            <e p="Toon_DoubleShadeWithFeather_TransClipping.shader" t="Include" />
+            <e p="Toon_DoubleShadeWithFeather_TransClipping_StencilMask.shader" t="Include" />
+            <e p="Toon_DoubleShadeWithFeather_TransClipping_StencilOut.shader" t="Include" />
+            <e p="Toon_OutlineObject.shader" t="Include" />
+            <e p="Toon_OutlineObject_StencilOut.shader" t="Include" />
+            <e p="Toon_ShadingGradeMap.shader" t="Include" />
+            <e p="Toon_ShadingGradeMap_AngelRing.shader" t="Include" />
+            <e p="Toon_ShadingGradeMap_AngelRing_Mobile.shader" t="Include" />
+            <e p="Toon_ShadingGradeMap_AngelRing_Mobile_StencilOut.shader" t="Include" />
+            <e p="Toon_ShadingGradeMap_AngelRing_StencilOut.shader" t="Include" />
+            <e p="Toon_ShadingGradeMap_AngelRing_TransClipping.shader" t="Include" />
+            <e p="Toon_ShadingGradeMap_AngelRing_TransClipping_StencilOut.shader" t="Include" />
+            <e p="Toon_ShadingGradeMap_Mobile.shader" t="Include" />
+            <e p="Toon_ShadingGradeMap_Mobile_StencilMask.shader" t="Include" />
+            <e p="Toon_ShadingGradeMap_Mobile_StencilOut.shader" t="Include" />
+            <e p="Toon_ShadingGradeMap_Mobile_TransClipping.shader" t="Include" />
+            <e p="Toon_ShadingGradeMap_Mobile_TransClipping_StencilMask.shader" t="Include" />
+            <e p="Toon_ShadingGradeMap_StencilMask.shader" t="Include" />
+            <e p="Toon_ShadingGradeMap_StencilOut.shader" t="Include" />
+            <e p="Toon_ShadingGradeMap_TransClipping.shader" t="Include" />
+            <e p="Toon_ShadingGradeMap_TransClipping_StencilMask.shader" t="Include" />
+            <e p="Toon_ShadingGradeMap_TransClipping_StencilOut.shader" t="Include" />
+            <e p="ToonColor_DoubleShadeWithFeather.shader" t="Include" />
+            <e p="ToonColor_DoubleShadeWithFeather_Clipping.shader" t="Include" />
+            <e p="ToonColor_DoubleShadeWithFeather_Clipping_StencilMask.shader" t="Include" />
+            <e p="ToonColor_DoubleShadeWithFeather_Clipping_StencilOut.shader" t="Include" />
+            <e p="ToonColor_DoubleShadeWithFeather_StencilMask.shader" t="Include" />
+            <e p="ToonColor_DoubleShadeWithFeather_StencilOut.shader" t="Include" />
+            <e p="ToonColor_DoubleShadeWithFeather_TransClipping.shader" t="Include" />
+            <e p="ToonColor_DoubleShadeWithFeather_TransClipping_StencilMask.shader" t="Include" />
+            <e p="ToonColor_DoubleShadeWithFeather_TransClipping_StencilOut.shader" t="Include" />
+            <e p="ToonColor_DoubleShadeWithFeather_Transparent.shader" t="Include" />
+            <e p="ToonColor_DoubleShadeWithFeather_Transparent_StencilOut.shader" t="Include" />
+            <e p="ToonColor_ShadingGradeMap.shader" t="Include" />
+            <e p="ToonColor_ShadingGradeMap_AngelRing.shader" t="Include" />
+            <e p="ToonColor_ShadingGradeMap_AngelRing_StencilOut.shader" t="Include" />
+            <e p="ToonColor_ShadingGradeMap_AngelRing_TransClipping.shader" t="Include" />
+            <e p="ToonColor_ShadingGradeMap_AngelRing_TransClipping_StencilOut.shader" t="Include" />
+            <e p="ToonColor_ShadingGradeMap_StencilMask.shader" t="Include" />
+            <e p="ToonColor_ShadingGradeMap_StencilOut.shader" t="Include" />
+            <e p="ToonColor_ShadingGradeMap_TransClipping.shader" t="Include" />
+            <e p="ToonColor_ShadingGradeMap_TransClipping_StencilMask.shader" t="Include" />
+            <e p="ToonColor_ShadingGradeMap_TransClipping_StencilOut.shader" t="Include" />
+            <e p="ToonColor_ShadingGradeMap_Transparent.shader" t="Include" />
+            <e p="ToonColor_ShadingGradeMap_Transparent_StencilOut.shader" t="Include" />
+            <e p="UCTS_DoubleShadeWithFeather.cginc" t="Include" />
+            <e p="UCTS_Outline.cginc" t="Include" />
+            <e p="UCTS_ShadingGradeMap.cginc" t="Include" />
+            <e p="UCTS_ShadowCaster.cginc" t="Include" />
+          </e>
+        </e>
+        <e p="ToonShade" t="Include">
+          <e p="Shader" t="Include">
+            <e p="SimpleToonFunctions.hlsl" t="Include" />
+            <e p="ToonLitForward.hlsl" t="Include" />
+            <e p="ToonLitInput.hlsl" t="Include" />
+            <e p="ToonLitLightingEquation.hlsl" t="Include" />
+            <e p="ToonLitOutline.shader" t="Include" />
+          </e>
+        </e>
+        <e p="ToonShaderFramework" t="Include">
+          <e p="GenshinToon.shader" t="Include" />
+          <e p="SimpleToonShader.shader" t="Include" />
+          <e p="UnityURPToonLitShaderExample-master" t="Include">
+            <e p="NiloInvLerpRemap.hlsl" t="Include" />
+            <e p="NiloOutlineUtil.hlsl" t="Include" />
+            <e p="NiloZOffset.hlsl" t="Include" />
+            <e p="SimpleURPToonLitOutlineExample.shader" t="Include" />
+            <e p="SimpleURPToonLitOutlineExample_LightingEquation.hlsl" t="Include" />
+            <e p="SimpleURPToonLitOutlineExample_Shared.hlsl" t="Include" />
+          </e>
+        </e>
+        <e p="TutorialInfo" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="Editor" t="Include">
+              <e p="ReadmeEditor.cs" t="Include" />
+            </e>
+            <e p="Readme.cs" t="Include" />
+          </e>
+        </e>
+        <e p="UTS" t="Include">
+          <e p="Editor" t="Include">
+            <e p="CopyMaterialParameter.cs" t="Include" />
+            <e p="Unity.UniversalToonShader.Urp.Editor.asmdef" t="Include" />
+            <e p="UniversalToonGUI.cs" t="Include" />
+          </e>
+          <e p="Runtime" t="Include">
+            <e p="Shaders" t="Include">
+              <e p="UniversalToon.shader" t="Include" />
+              <e p="UniversalToonBody.hlsl" t="Include" />
+              <e p="UniversalToonBodyDoubleShadeWithFeather.hlsl" t="Include" />
+              <e p="UniversalToonBodyShadingGradeMap.hlsl" t="Include" />
+              <e p="UniversalToonHead.hlsl" t="Include" />
+              <e p="UniversalToonOutline.hlsl" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="《原神》神里屋敷 社奉行本部" t="Include">
+          <e p="README.txt" t="Include" />
+        </e>
+      </e>
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="ShadingFrameworkProj.sln" t="IncludeFlat" />
+      <e p="Temp\Bin" t="ExcludeRecursive" />
+      <e p="Unity.UniversalToonShader.Urp.Editor.csproj" t="IncludeRecursive" />
+    </e>
+  </component>
+</project>

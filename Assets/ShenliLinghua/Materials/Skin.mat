@@ -1,0 +1,192 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-4856681367483388821
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 4
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Skin
+  m_Shader: {fileID: 4800000, guid: a7ba8dc624514a33ba5f1854859647b0, type: 3}
+  m_ShaderKeywords: ENABLE_METAL_SPECULAR _ENABLELAMBERT_ON _ENABLERIM_ON _FIXDARKSHADOW_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 2800000, guid: ee10514b8bcc2f94b925df50f9805f6b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BloomMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FaceShadowMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LightMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OutlineZOffsetMaskTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RimMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Set_HighColorMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AlphaClip: 0
+    - _Blend: 0
+    - _BloomFactor: 1
+    - _BumpScale: 1
+    - _ClearCoatMask: 0
+    - _ClearCoatSmoothness: 0
+    - _Cull: 2
+    - _Cutoff: 0.5
+    - _DarkShadowArea: 0.174
+    - _DarkShadowSmooth: 0.011
+    - _DetailAlbedoMapScale: 1
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _Emission: 0
+    - _EmissionBloomFactor: 1
+    - _EnableAlphaClipping: 0
+    - _EnableBloomMask: 0
+    - _EnableEmission: 0
+    - _EnableFaceShadowMap: 0
+    - _EnableLambert: 1
+    - _EnableMetalSpecular: 1
+    - _EnableOutline: 1
+    - _EnableRim: 1
+    - _EnableSpecular: 0
+    - _EnableSpecularMap: 1
+    - _EnvironmentReflections: 1
+    - _FaceShadowMapPow: 0.287
+    - _FaceShadowOffset: -0.278
+    - _FixDarkShadow: 1
+    - _GlossMapScale: 0
+    - _Glossiness: 0
+    - _GlossyReflections: 0
+    - _IsFace: 0
+    - _Metallic: 0
+    - _OcclusionStrength: 1
+    - _OutlineWidth: 1
+    - _OutlineZOffset: 0.0001
+    - _OutlineZOffsetMaskRemapEnd: 1
+    - _OutlineZOffsetMaskRemapStart: 0
+    - _Parallax: 0.005
+    - _QueueOffset: 0
+    - _ReceiveShadowMappingAmount: 0.363
+    - _ReceiveShadowMappingPosOffset: 0.83
+    - _ReceiveShadows: 1
+    - _RimPow: 4.65
+    - _RimSmooth: 0.282
+    - _ShadowArea: 0.472
+    - _ShadowSmooth: 0.113
+    - _Shininess: 20
+    - _Smoothness: 0.5
+    - _SmoothnessTextureChannel: 0
+    - _SpecMulti: 1
+    - _SpecSmoothness: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _Surface: 0
+    - _Tweak_HighColorMaskLevel: -0.118
+    - _WorkflowMode: 1
+    - _WorldLightInfluence: 0
+    - _ZWrite: 1
+    m_Colors:
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _DarkShadowMultColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _EmissionMapChannelMask: {r: 1, g: 1, b: 1, a: 0}
+    - _LightSpecColor: {r: 0.8, g: 0.8, b: 0.8, a: 1}
+    - _OutlineColor: {r: 0.509434, g: 0.28595588, b: 0.28595588, a: 1}
+    - _RimColor: {r: 1, g: 0.7617611, b: 0.5707547, a: 1}
+    - _ShadowMapColor: {r: 0.8113208, g: 0.45258117, b: 0.37121755, a: 1}
+    - _ShadowMultColor: {r: 0.48700607, g: 0.5542655, b: 0.6037736, a: 1}
+    - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
+  m_BuildTextureStacks: []
