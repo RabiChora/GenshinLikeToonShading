@@ -26,7 +26,8 @@ struct Varyings
     float lambert: TEXCOORD4;
     float4 shadowCoord: TEXCOORD5;
     float3 viewDirWS : TEXCOORD6;
-    float4 tangentWS   : TEXCOORD7; 
+    float4 tangentWS   : TEXCOORD7;
+    float4 positionSS  : TEXCOORD8;
  
     UNITY_VERTEX_INPUT_INSTANCE_ID
     UNITY_VERTEX_OUTPUT_STEREO
@@ -41,7 +42,8 @@ TEXTURE2D(_RampMap);                  SAMPLER(sampler_RampMap);
 TEXTURE2D(_BloomMap);                 SAMPLER(sampler_BloomMap);
 TEXTURE2D(_MetalMap);                 SAMPLER(sampler_MetalMap);
 TEXTURE2D(_Set_HighColorMask);        SAMPLER(sampler_Set_HighColorMask);
-
+TEXTURE2D(_CameraDepthTexture);       SAMPLER(sampler_CameraDepthTexture);
+TEXTURE2D(_RimMask);                  SAMPLER(sampler_RimMask);
 sampler2D _OutlineZOffsetMaskTex;
 
 CBUFFER_START(UnityPerMaterial)
@@ -69,6 +71,7 @@ uniform float _TweakHighColorOnShadow;
 float3 _ShadowMultColor;
 float _ShadowArea;
 half _ShadowSmooth;
+float _ShadowColor;
 
 float _EnableSpecular;
 float4 _LightSpecColor;
@@ -80,8 +83,10 @@ float _EnableLambert;
 float _EnableRim;
 half4 _RimColor;
 float _RimSmooth;
-float _RimPow;
-half4 _RimMask;
+float _RimWidth;
+half4 _RimMask_ST;
+float _RimLightBlend;
+float _RimLightBlendPoint;
 
 float4 _BloomMap_ST;
 float _BloomFactor;
@@ -115,6 +120,7 @@ struct ToonSurfaceData
     half4   specular;
     half4   rimLight;
     half3   normalTS;
+    half4   shadowCoord;
 };
 
 struct LightingData

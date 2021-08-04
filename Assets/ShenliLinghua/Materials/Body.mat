@@ -103,7 +103,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _RimMask:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: a52a14701217d6f49978d2bdf8bbdc79, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Set_HighColorMask:
@@ -187,17 +187,20 @@ Material:
     - _Parallax: 0.005
     - _QueueOffset: 0
     - _RampShadowRange: 0.397
-    - _ReceiveShadowMappingAmount: 0.209
-    - _ReceiveShadowMappingPosOffset: 3.91
+    - _ReceiveShadowMappingAmount: 0.582
+    - _ReceiveShadowMappingPosOffset: 0
     - _ReceiveShadows: 1
     - _RimLight: 0
+    - _RimLightBlend: 6.52
+    - _RimLightBlendPoint: 1.46
     - _RimLight_FeatherOff: 0
     - _RimLight_InsideMask: 0.0001
     - _RimLight_Power: 0.1
     - _RimMax: 3.16
     - _RimMin: 0.493
     - _RimPow: 5.37
-    - _RimSmooth: 0.249
+    - _RimSmooth: 0.066
+    - _RimWidth: 6.67
     - _ShadowArea: 0.446
     - _ShadowSmooth: 0.314
     - _Shininess: 2.7
@@ -226,8 +229,9 @@ Material:
     - _RampArea12: {r: -50, g: 1, b: -50, a: 4}
     - _RampArea34: {r: -50, g: 0, b: -50, a: 2}
     - _RampArea5: {r: -50, g: 3, b: -50, a: 0}
-    - _RimColor: {r: 0.7490196, g: 0.6431373, b: 0.5372549, a: 1}
+    - _RimColor: {r: 0.754717, g: 0.65646136, b: 0.5582058, a: 1}
     - _RimLightColor: {r: 1, g: 1, b: 1, a: 1}
+    - _ShadowColor: {r: 0, g: 0, b: 0, a: 0}
     - _ShadowMapColor: {r: 0.5372549, g: 0.01960784, b: 0.4334768, a: 1}
     - _ShadowMultColor: {r: 0.6093774, g: 0.5987451, b: 0.6509434, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}

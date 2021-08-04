@@ -30,6 +30,7 @@
         _ShadowArea ("Shadow Area", range(0.0, 1.0)) = 0.5
         _ShadowSmooth ("Shadow Smooth", range(0.0, 1.0)) = 0.05
         [HideInInspector]_LightMap ("LightMap", 2D) = "grey" { }
+        _ShadowColor("Shadow Color", Color) = (0, 0, 0, 0)
         [Space(30)]
 
         [Header(Shadow mapping)]
@@ -58,9 +59,12 @@
         [Space(5)]
         [Toggle]_EnableLambert ("Enable Lambert", float) = 1
         [Toggle]_EnableRim ("Enable Rim", float) = 1
-        [HDR]_RimColor ("Rim Color", Color) = (1, 1, 1, 1)
+        _RimColor ("Rim Color", Color) = (1, 1, 1, 1)
         _RimSmooth ("Rim Smooth", Range(0.001, 1.0)) = 0.01
-        _RimPow ("Rim Pow", Range(0.0, 10.0)) = 5.0
+        //_RimLightBlend("RimLightBlend", float) = 0.5
+        //_RimLightBlendPoint("RimLightBlend Point", float) = 0.5
+        _RimWidth("Rim Width", float) = 0.1
+        _RimMask("Rim Mask", 2D) = "white" {}
         [Space(30)]
 
         [Header(Outline Setting)]
@@ -127,8 +131,6 @@
             Cull Front
             HLSLPROGRAM
 
-            #pragma multi_compile _ _MAIN_LIGHT_SHADOWS
-            #pragma multi_compile _ _MAIN_LIGHT_SHADOWS_CASCADE
             #pragma multi_compile _ _ADDITIONAL_LIGHTS_VERTEX _ADDITIONAL_LIGHTS
             #pragma multi_compile_fragment _ _ADDITIONAL_LIGHT_SHADOWS
             #pragma multi_compile_fragment _ _SHADOWS_SOFT
@@ -165,10 +167,12 @@
 
             // -------------------------------------
             // Material Keywords
+            #pragma multi_compile _ _MAIN_LIGHT_SHADOWS
+            #pragma multi_compile _ _MAIN_LIGHT_SHADOWS_CASCADE
             #pragma shader_feature_local_fragment _ALPHATEST_ON
             #pragma shader_feature_local_fragment _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
 
-            #pragma vertex ShadowPassVertex
+            #pragma vertex ToonPassVertex
             #pragma fragment ShadowPassFragment
 
             #include "ToonLitForward.hlsl"

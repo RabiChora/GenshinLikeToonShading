@@ -56,6 +56,7 @@ Varyings OutlinePassVertex(Attributes input)
     
 
     output.shadowCoord = TransformWorldToShadowCoord(output.positionWSAndFogFactor.xyz);
+    output.positionSS = ComputeScreenPos(output.positionCS);
     return output;
 }
 
@@ -97,45 +98,62 @@ Varyings ToonPassVertex(Attributes input)
     output.uv.xy = TRANSFORM_TEX(input.texcoord, _BaseMap);
     output.uv.zw = TRANSFORM_TEX(input.texcoord, _BloomMap);
 
-    output.shadowCoord = TransformWorldToShadowCoord(output.positionWSAndFogFactor.xyz);
+    output.shadowCoord = GetShadowCoord(vertexInput);
     
     half3 viewDirWS = GetWorldSpaceViewDir(vertexInput.positionWS);
     output.viewDirWS = viewDirWS;
     real sign = input.tangentOS.w * GetOddNegativeScale();
     output.tangentWS = half4(vertexNormalInput.tangentWS.xyz,sign);
+    output.positionSS = ComputeScreenPos(output.positionCS);
     return output;
     
 }
-float4 GetShadowPositionHClip(Attributes input)
+
+float3 ShadowProjectPos(float3 vertPos, float3 lightDir)
 {
-    float3 positionWS = TransformObjectToWorld(input.positionOS.xyz);
-    float3 normalWS = TransformObjectToWorldNormal(input.normalOS);
+    float3 shadowPos;
+    float3 worldPos = TransformObjectToWorld(vertPos);
 
-    float4 positionCS = TransformWorldToHClip(ApplyShadowBias(positionWS, normalWS, _LightDirection));
+    shadowPos.y = min(worldPos.y, 0);
+    shadowPos.xz = worldPos.xz = lightDir.xz * max(0, worldPos.y) / lightDir.y;
 
-    #if UNITY_REVERSED_Z
-    positionCS.z = min(positionCS.z, positionCS.w * UNITY_NEAR_CLIP_VALUE);
-    #else
-    positionCS.z = max(positionCS.z, positionCS.w * UNITY_NEAR_CLIP_VALUE);
-    #endif
-
-    return positionCS;
+    return shadowPos;
 }
 
 Varyings ShadowPassVertex(Attributes input)
 {
     Varyings output;
-    UNITY_SETUP_INSTANCE_ID(input);
+    VertexPositionInputs vertexInput = GetVertexPositionInputs(input.positionOS);
 
-    output.uv.xy = TRANSFORM_TEX(input.texcoord, _BaseMap);
-    output.positionCS = GetShadowPositionHClip(input);
+    output.shadowCoord = GetShadowCoord(vertexInput);
+
+    UNITY_SETUP_INSTANCE_ID(input);
     return output;
 }
 
 half4 ShadowPassFragment(Varyings input) : SV_TARGET
 {
-    Alpha(SampleAlbedoAlpha(input.uv, TEXTURE2D_ARGS(_BaseMap, sampler_BaseMap)).a, _BaseColor, _Cutoff);
-    return 0;
+    UNITY_SETUP_STEREO_EYE_INDEX_POST_VERTEX(input);
+    float deviceDepth = SAMPLE_TEXTURE2D_X(_CameraDepthTexture, sampler_CameraDepthTexture, input.uv.xy).r;
+
+    #if UNITY_REVERSED_Z
+    deviceDepth = 1 - deviceDepth;
+    #endif
+    deviceDepth = 2 * deviceDepth - 1; //NOTE: Currently must massage depth before computing CS position.
+
+    float3 vpos = ComputeViewSpacePosition(input.uv.zw, deviceDepth, unity_CameraInvProjection);
+    float3 wpos = mul(unity_CameraToWorld, float4(vpos, 1)).xyz;
+
+    //Fetch shadow coordinates for cascade.
+    float4 coords = TransformWorldToShadowCoord(wpos);
+
+    // Screenspace shadowmap is only used for directional lights which use orthogonal projection.
+    ShadowSamplingData shadowSamplingData = GetMainLightShadowSamplingData();
+    half4 shadowParams = GetMainLightShadowParams();
+
+    half4 shadow =
+        SampleShadowmap(TEXTURE2D_ARGS(_MainLightShadowmapTexture, sampler_MainLightShadowmapTexture), coords, shadowSamplingData, shadowParams, false);
+    return shadow;
 }
 
 half4 FragmentAlphaClip(Varyings input): SV_TARGET
@@ -178,19 +196,52 @@ half4 GetFinalSpecular(Varyings input)
     return specularColor;
 }
 
+float GetSSRimScale(float z)
+{
+    float w = (1.0 / (PositivePow(z + saturate(UNITY_MATRIX_P._m00), 1.5) + 0.75)) * (_ScreenParams.y / 1080);
+    w *= lerp(1, UNITY_MATRIX_P._m00, 0.60 * saturate(0.25 * z * z));
+    return w < 0.01 ? 0: w;
+}
+
+float LoadCameraDepth(uint2 pixelCoords)
+{
+    return LOAD_TEXTURE2D_X_LOD(_CameraDepthTexture, pixelCoords, 0).r;
+}
+
+
 half4 GetFinalRimLight(Varyings input)
 {
     Light mainLight = GetMainLight(input.shadowCoord);
     half3 viewDirWS = normalize(_WorldSpaceCameraPos.xyz - input.positionWSAndFogFactor.xyz);
+    
     // Rim Light
     float lambertF = dot(mainLight.direction, input.normalWS);
     lambertF = max(0, lambertF);
     float rim = 1 - saturate(dot(viewDirWS, input.normalWS));
     
-    float rimDot = pow(rim, _RimPow);
+    float rimDot = pow(rim, _RimWidth);
     rimDot = _EnableLambert * lambertF * rimDot + (1 - _EnableLambert) * rimDot;
     float rimIntensity = smoothstep(0, _RimSmooth, rimDot);
-    half4 Rim = _EnableRim * pow(rimIntensity, 5) * _RimColor;
+    half4 mask = SAMPLE_TEXTURE2D(_RimMask, sampler_RimMask, input.uv);
+    half4 Rim = _EnableRim * pow(rimIntensity, 5) * _RimColor * mask;
+
+    // //SSRim
+    // half3 N_view = normalize(mul((float3x3)UNITY_MATRIX_V, input.normalWS));
+    // half3 L_view = normalize(mul((float3x3)UNITY_MATRIX_V, mainLight.direction));
+    // half NdotL = dot(N_view, L_view);
+    //
+    // float2 ssUV = (input.positionSS.xy / input.positionSS.w);
+    // float2 ssUVNew = ssUV + N_view * NdotL * _RimWidth * input.color.b * 40 * GetSSRimScale(input.positionVS.z);
+    // float depthTex = LoadCameraDepth(clamp(ssUVNew, 0, _ScreenParams.xy - 1));
+    // float depthScene = LinearEyeDepth(depthTex, _ZBufferParams);
+    // float depthDiff = depthScene - input.positionVS.z;
+    // float intensity = smoothstep(0.24 * _RimSmooth * input.positionVS.z, 0.25 * input.positionVS.z, depthDiff);
+    // intensity *= _RimColor.a;
+    //         
+    // float3 ssColor = intensity * lerp(1, mainLight.color, _RimLightBlend) * lerp(_RimColor.rgb, mainLight.color, _RimLightBlendPoint);
+    // ssColor = intensity;
+    // //Rim.rgb = _EnableRim * ssColor ;
+    
     Rim.a =  _RimColor.a;
     
     return Rim;
@@ -233,6 +284,8 @@ ToonSurfaceData InitializeSurfaceData(Varyings input)
     output.specular = GetFinalSpecular(input);
     output.rimLight = GetFinalRimLight(input);
     output.normalTS = SampleNormal(input.uv, TEXTURE2D_ARGS(_BumpMap, sampler_BumpMap), _BumpScale);
+
+    output.shadowCoord = input.shadowCoord;
 
     return output;
 }

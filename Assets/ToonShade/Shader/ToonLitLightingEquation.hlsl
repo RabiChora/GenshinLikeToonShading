@@ -71,5 +71,6 @@ half3 CompositeAllLightResults(half3 indirectResult, half3 mainLightResult, half
 
     FinalColor.rgb = SpecDiffuse + surfaceData.rimLight;
     FinalColor = _WorldLightInfluence * _MainLightColor * FinalColor + (1 - _WorldLightInfluence) * FinalColor;
+
     return FinalColor;
 }

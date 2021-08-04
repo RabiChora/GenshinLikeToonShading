@@ -71,6 +71,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _RimMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _Set_HighColorMask:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -118,17 +122,20 @@ Material:
     - _IsFace: 0
     - _Metallic: 0
     - _OcclusionStrength: 1
-    - _OutlineWidth: 1
+    - _OutlineWidth: 1.11
     - _OutlineZOffset: 0.0001
     - _OutlineZOffsetMaskRemapEnd: 1
     - _OutlineZOffsetMaskRemapStart: 0
     - _Parallax: 0.005
     - _QueueOffset: 0
-    - _ReceiveShadowMappingAmount: 0
+    - _ReceiveShadowMappingAmount: 1
     - _ReceiveShadowMappingPosOffset: 0
     - _ReceiveShadows: 1
+    - _RimLightBlend: 0.5
+    - _RimLightBlendPoint: 0.5
     - _RimPow: 10
     - _RimSmooth: 0.001
+    - _RimWidth: 0.1
     - _ShadowArea: 0.492
     - _ShadowSmooth: 0.161
     - _Shininess: 10
@@ -148,8 +155,9 @@ Material:
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _EmissionMapChannelMask: {r: 1, g: 1, b: 1, a: 0}
     - _LightSpecColor: {r: 0.8, g: 0.8, b: 0.8, a: 1}
-    - _OutlineColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _OutlineColor: {r: 0.41509432, g: 0.2952652, b: 0.2952652, a: 1}
     - _RimColor: {r: 1, g: 1, b: 1, a: 1}
+    - _ShadowColor: {r: 0, g: 0, b: 0, a: 0}
     - _ShadowMapColor: {r: 0.49638033, g: 0.45910463, b: 0.5377358, a: 1}
     - _ShadowMultColor: {r: 0.5456612, g: 0.5234959, b: 0.6415094, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
