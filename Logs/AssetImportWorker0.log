@@ -15,11 +15,11 @@ E:/UnityProjects/ShaderFrameworkProj
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50630
+60603
 Successfully changed project path to: E:/UnityProjects/ShaderFrameworkProj
 E:/UnityProjects/ShaderFrameworkProj
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 81.99 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 51.72 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.15f2 (6cf78cb77498)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/Resources/UnitySubsystems
@@ -36,90 +36,90 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56928
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56568
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.008170 seconds.
+Registered in 0.004492 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 73.71 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 53.14 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.746 seconds
+- Completed reload, in  1.486 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3747ms)
-		BeginReloadAssembly (105ms)
+	ReloadAssembly (1486ms)
+		BeginReloadAssembly (75ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (570ms)
-			LoadAssemblies (100ms)
+		EndReloadAssembly (407ms)
+			LoadAssemblies (70ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (193ms)
+			SetupTypeCache (133ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (35ms)
-			SetupLoadedEditorAssemblies (229ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (168ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (74ms)
-				BeforeProcessingInitializeOnLoad (12ms)
-				ProcessInitializeOnLoadAttributes (102ms)
-				ProcessInitializeOnLoadMethodAttributes (34ms)
+				RefreshPlugins (53ms)
+				BeforeProcessingInitializeOnLoad (9ms)
+				ProcessInitializeOnLoadAttributes (74ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006334 seconds.
+Registered in 0.003678 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 76.29 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 53.80 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.620 seconds
+- Completed reload, in  1.141 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1621ms)
-		BeginReloadAssembly (221ms)
+	ReloadAssembly (1142ms)
+		BeginReloadAssembly (154ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (24ms)
-		EndReloadAssembly (1304ms)
-			LoadAssemblies (187ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (915ms)
+			LoadAssemblies (108ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (408ms)
+			SetupTypeCache (283ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (65ms)
-			SetupLoadedEditorAssemblies (511ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (368ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (76ms)
-				BeforeProcessingInitializeOnLoad (135ms)
-				ProcessInitializeOnLoadAttributes (264ms)
-				ProcessInitializeOnLoadMethodAttributes (7ms)
-				AfterProcessingInitializeOnLoad (20ms)
+				RefreshPlugins (54ms)
+				BeforeProcessingInitializeOnLoad (104ms)
+				ProcessInitializeOnLoadAttributes (185ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (16ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
-Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3013 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 172.1 MB.
-System memory in use after: 164.6 MB.
+System memory in use before: 172.2 MB.
+System memory in use after: 164.8 MB.
 
 Unloading 78 unused Assets to reduce memory usage. Loaded Objects now: 3390.
-Total: 9.015000 ms (FindLiveObjects: 0.448200 ms CreateObjectMapping: 0.115000 ms MarkObjects: 3.322100 ms  DeleteObjects: 5.127500 ms)
+Total: 8.042200 ms (FindLiveObjects: 0.412400 ms CreateObjectMapping: 0.154700 ms MarkObjects: 2.728200 ms  DeleteObjects: 4.744500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -134,104 +134,81 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/ShenliLinghua/tex/服_RimMask.png
-  artifactKey: Guid(a52a14701217d6f49978d2bdf8bbdc79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ShenliLinghua/tex/服_RimMask.png using Guid(a52a14701217d6f49978d2bdf8bbdc79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6432da7014aad68b5e6b973a7dc5131') in 0.158070 seconds 
-  Import took 0.163484 seconds .
+  path: Assets/UTS
+  artifactKey: Guid(0dce8b43122cd664aa0b7482f3fe7546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UTS using Guid(0dce8b43122cd664aa0b7482f3fe7546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c5fc611fb4558ee198f7b5d3246c535') in 0.006304 seconds 
+  Import took 0.010568 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 26.971016 seconds.
-  path: Assets/ShenliLinghua/tex/服_RimMask.png
-  artifactKey: Guid(a52a14701217d6f49978d2bdf8bbdc79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ShenliLinghua/tex/服_RimMask.png using Guid(a52a14701217d6f49978d2bdf8bbdc79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2fae889df17dc4369f78e8496af3b68') in 0.013067 seconds 
-  Import took 0.020188 seconds .
+  Time since last request: 0.000322 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部
+  artifactKey: Guid(075c995f54738f443aa25e393fc380a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部 using Guid(075c995f54738f443aa25e393fc380a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c8d5318b66d5e233c145d54ee7c69be') in 0.002851 seconds 
+  Import took 0.007104 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 75.501845 seconds.
-  path: Assets/ShenliLinghua/tex/服_RimMask.png
-  artifactKey: Guid(a52a14701217d6f49978d2bdf8bbdc79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ShenliLinghua/tex/服_RimMask.png using Guid(a52a14701217d6f49978d2bdf8bbdc79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa65b3944f69b12cecad7d842191d53f') in 0.020299 seconds 
-  Import took 0.026885 seconds .
+  Time since last request: 0.000219 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/Tex
+  artifactKey: Guid(334f6d1a4a1c1b540b33581277450a88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/Tex using Guid(334f6d1a4a1c1b540b33581277450a88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '091271dbb53e844144ffa4258d380019') in 0.002795 seconds 
+  Import took 0.006877 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1196.673133 seconds.
-  path: Assets/Settings/UniversalRP-HighQuality.asset
-  artifactKey: Guid(19ba41d7c0026c3459d37c2fe90c55a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Settings/UniversalRP-HighQuality.asset using Guid(19ba41d7c0026c3459d37c2fe90c55a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '830a19abacffd2982fe520f0b2e7493f') in 0.014049 seconds 
-  Import took 0.019346 seconds .
+  Time since last request: 0.720584 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/Tex/Tex_0001_G.png
+  artifactKey: Guid(d33aa65cf45c6d7498f751ef1f25ce61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/Tex/Tex_0001_G.png using Guid(d33aa65cf45c6d7498f751ef1f25ce61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b1aedde56005f18eb95160c7b59829c') in 0.102389 seconds 
+  Import took 0.106705 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.005486 seconds.
-  path: Assets/Settings/UniversalRP-HighQuality.asset
-  artifactKey: Guid(19ba41d7c0026c3459d37c2fe90c55a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Settings/UniversalRP-HighQuality.asset using Guid(19ba41d7c0026c3459d37c2fe90c55a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '830a19abacffd2982fe520f0b2e7493f') in 0.004664 seconds 
-  Import took 0.009711 seconds .
+  Time since last request: 1.116844 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/Tex/Tex_0001_M.png
+  artifactKey: Guid(4e3d3cb9ff024634a958e2ba205e8dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/Tex/Tex_0001_M.png using Guid(4e3d3cb9ff024634a958e2ba205e8dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cf1663442ea59b625f57895b401b1b7') in 0.009561 seconds 
+  Import took 0.013690 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 194.587839 seconds.
-  path: Assets/Settings/UniversalRP-LowQuality.asset
-  artifactKey: Guid(a31e9f9f9c9d4b9429ed0d1234e22103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Settings/UniversalRP-LowQuality.asset using Guid(a31e9f9f9c9d4b9429ed0d1234e22103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6873b356855449b052d88fb52d94f6af') in 0.005310 seconds 
-  Import took 0.012682 seconds .
+  Time since last request: 2.405992 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/Tex/Tex_0002_G.png
+  artifactKey: Guid(1d35c53cd587390489fa670bd8cbb866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/Tex/Tex_0002_G.png using Guid(1d35c53cd587390489fa670bd8cbb866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38d4f6fb12f0ae5f553f21df24f219b2') in 0.009716 seconds 
+  Import took 0.014324 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2673.307842 seconds.
-  path: Assets/ShenliLinghua/shenli.fbx
-  artifactKey: Guid(0ad2bf9e6d2af8e4782a51c997c90409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ShenliLinghua/shenli.fbx using Guid(0ad2bf9e6d2af8e4782a51c997c90409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b64a6792f4f8322358ad33bc26f696aa') in 0.974871 seconds 
-  Import took 0.986275 seconds .
+  Time since last request: 3.598002 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/Tex/Tex_0002_M.png
+  artifactKey: Guid(25f16f77b11a6f8459004fef019543eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/Tex/Tex_0002_M.png using Guid(25f16f77b11a6f8459004fef019543eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0921596248d4d0719eeac5e3098d1dd3') in 0.009305 seconds 
+  Import took 0.013975 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 393.707190 seconds.
-  path: Assets/ShenliLinghua/shenli.fbx
-  artifactKey: Guid(0ad2bf9e6d2af8e4782a51c997c90409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ShenliLinghua/shenli.fbx using Guid(0ad2bf9e6d2af8e4782a51c997c90409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41726ec0ca60daaca40bb6b6dfad44cd') in 0.153218 seconds 
-  Import took 0.161516 seconds .
+  Time since last request: 1.882151 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/Tex/Tex_0002_N.png
+  artifactKey: Guid(7a554ebc482fcad459bbe3f34395aa9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/Tex/Tex_0002_N.png using Guid(7a554ebc482fcad459bbe3f34395aa9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f89db0c2cd8bc8ce1e9149e83553b0c3') in 0.011435 seconds 
+  Import took 0.015741 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 62.388512 seconds.
-  path: Assets/ShenliLinghua/Materials
-  artifactKey: Guid(c361b78067f2eef49aa3c1e9a608fd7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ShenliLinghua/Materials using Guid(c361b78067f2eef49aa3c1e9a608fd7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '650cf01d320b562f27c388c4fe334ff4') in 0.003182 seconds 
-  Import took 0.008429 seconds .
+  Time since last request: 11.943401 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/Tex/Tex_0005_G.png
+  artifactKey: Guid(e985241bbe8b4c04abb537b0c8fa7411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/Tex/Tex_0005_G.png using Guid(e985241bbe8b4c04abb537b0c8fa7411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '015681bfbb67a63c396809481056322d') in 0.009231 seconds 
+  Import took 0.013528 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 431.668882 seconds.
-  path: Assets/ToonShade/Shader/ToonLitOutline.shader
-  artifactKey: Guid(a7ba8dc624514a33ba5f1854859647b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ToonShade/Shader/ToonLitOutline.shader using Guid(a7ba8dc624514a33ba5f1854859647b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd49410f4282a1d6c77e1d274a4ee7b73') in 0.007434 seconds 
-  Import took 0.012934 seconds .
+  Time since last request: 0.780483 seconds.
+  path: Assets/《原神》神里屋敷 社奉行本部/Tex/Tex_0005_E.png
+  artifactKey: Guid(99b7f26eff1ea6b41ad2a62da533916f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/《原神》神里屋敷 社奉行本部/Tex/Tex_0005_E.png using Guid(99b7f26eff1ea6b41ad2a62da533916f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '988acd5cfc08934044f369f127accc81') in 0.009506 seconds 
+  Import took 0.014809 seconds .
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.007654 seconds.
-  path: Assets/ToonShade/Shader/ToonLitOutline.shader
-  artifactKey: Guid(a7ba8dc624514a33ba5f1854859647b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ToonShade/Shader/ToonLitOutline.shader using Guid(a7ba8dc624514a33ba5f1854859647b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd49410f4282a1d6c77e1d274a4ee7b73') in 0.002816 seconds 
-  Import took 0.007703 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 18.056108 seconds.
-  path: Assets/ToonShade/Shader/ToonLitOutline.shader
-  artifactKey: Guid(a7ba8dc624514a33ba5f1854859647b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ToonShade/Shader/ToonLitOutline.shader using Guid(a7ba8dc624514a33ba5f1854859647b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f43c87ec9db3dfeec507f4cec5662cc') in 0.004102 seconds 
-  Import took 0.011024 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 22.695526 seconds.
-  path: Assets/ShenliLinghua/tex/服_RimMask.png
-  artifactKey: Guid(a52a14701217d6f49978d2bdf8bbdc79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ShenliLinghua/tex/服_RimMask.png using Guid(a52a14701217d6f49978d2bdf8bbdc79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae19ca2f60fc548ff66dbf0c18e5e030') in 0.010786 seconds 
-  Import took 0.015707 seconds .
-
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
