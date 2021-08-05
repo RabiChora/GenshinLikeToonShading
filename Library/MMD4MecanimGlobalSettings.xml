@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MMD4MecanimGlobalSettings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <importerInspectorViewPage>0</importerInspectorViewPage>
+  <importerInspectorViewAdvanced>false</importerInspectorViewAdvanced>
+  <materialShakeHandsEnabled>0</materialShakeHandsEnabled>
+</MMD4MecanimGlobalSettings>

@@ -127,9 +127,10 @@
         Pass
         {
             Name "CHARACTER_OUTLINE"
-            Tags {  }
+            Tags { "LightMode" = "SRPDefaultUnlit"  }
             Cull Front
             HLSLPROGRAM
+            #pragma enable_d3d11_debug_symbols
 
             #pragma multi_compile _ _ADDITIONAL_LIGHTS_VERTEX _ADDITIONAL_LIGHTS
             #pragma multi_compile_fragment _ _ADDITIONAL_LIGHT_SHADOWS
@@ -158,6 +159,7 @@
             Cull Off
 
             HLSLPROGRAM
+            #pragma enable_d3d11_debug_symbols
             #pragma only_renderers gles gles3 glcore d3d11
             #pragma target 2.0
 

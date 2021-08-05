@@ -152,7 +152,7 @@ Material:
     - _IsFace: 0
     - _Metallic: 0
     - _OcclusionStrength: 1
-    - _OutlineWidth: 1
+    - _OutlineWidth: 1.14
     - _OutlineZOffset: 0.0001
     - _OutlineZOffsetMaskRemapEnd: 1
     - _OutlineZOffsetMaskRemapStart: 0

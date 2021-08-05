@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\rabichorali\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\rabichorali\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_ShaderFrameworkProj.-1900094333.00" t="ExcludeRecursive" />
+    <e p="C:\Users\rabichorali\AppData\Roaming\JetBrains\Rider2020.2\scratches" t="IncludeRecursive" />
+    <e p="E:\ShaderFrameworkProj" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="MMD4Mecanim" t="Include">
+          <e p="Editor" t="Include">
+            <e p="MMD4MecanimAnimationClipNameFixer.cs" t="Include" />
+            <e p="MMD4MecanimAnimMorphHelperInspector.cs" t="Include" />
+            <e p="MMD4MecanimAssignMaterialModel.cs" t="Include" />
+            <e p="MMD4MecanimBoneInspector.cs" t="Include" />
+            <e p="MMD4MecanimBulletPhysicsInspector.cs" t="Include" />
+            <e p="MMD4MecanimImporter.cs" t="Include" />
+            <e p="MMD4MecanimImporterInspector.cs" t="Include" />
+            <e p="MMD4MecanimModelInspector.cs" t="Include" />
+            <e p="MMD4MecanimPreProcessBuild.cs" t="Include" />
+            <e p="MMD4MecanimRigidBodyInspector.cs" t="Include" />
+            <e p="PMX2FBX" t="Include">
+              <e p="pmx2fbx.xml" t="Include" />
+              <e p="Readme.txt" t="Include" />
+            </e>
+            <e p="Revision.txt" t="Include" />
+          </e>
+          <e p="Scripts" t="Include">
+            <e p="MMD4MecanimAnimMorphHelper.cs" t="Include" />
+            <e p="MMD4MecanimBone.cs" t="Include" />
+            <e p="MMD4MecanimBulletPhysics.cs" t="Include" />
+            <e p="MMD4MecanimIKTarget.cs" t="Include" />
+            <e p="MMD4MecanimModel.cs" t="Include" />
+            <e p="MMD4MecanimMorphHelper.cs" t="Include" />
+            <e p="MMD4MecanimRigidBody.cs" t="Include" />
+            <e p="MMD4MecanimSpeechHelper.cs" t="Include" />
+          </e>
+          <e p="Shaders" t="Include">
+            <e p="MMD4Mecanim-MMDLit-AutoLight.cginc" t="Include" />
+            <e p="MMD4Mecanim-MMDLit-BothFaces-Edge.shader" t="Include" />
+            <e p="MMD4Mecanim-MMDLit-BothFaces-Transparent-Edge.shader" t="Include" />
+            <e p="MMD4Mecanim-MMDLit-BothFaces-Transparent.shader" t="Include" />
+            <e p="MMD4Mecanim-MMDLit-BothFaces.shader" t="Include" />
+            <e p="MMD4Mecanim-MMDLit-Compatible.cginc" t="Include" />
+            <e p="MMD4Mecanim-MMDLit-Dummy.shader" t="Include" />
+            <e p="MMD4Mecanim-MMDLit-Edge.shader" t="Include" />
+            <e p="MMD4Mecanim-MMDLit-Lighting.cginc" t="Include" />
+            <e p="MMD4Mecanim-MMDLit-NEXTEdge-ForwardBase.cginc" t="Include" />
+            <e p="MMD4Mecanim-MMDLit-NEXTEdge-Lighting.cginc" t="Include" />
+            <e p="MMD4Mecanim-MMDLit-NEXTEdge-Pass4.shader" t="Include" />
+            <e p="MMD4Mecanim-MMDLit-NEXTEdge-Pass8.shader" t="Include" />
+            <e p="MMD4Mecanim-MMDLit-NoShadowCasting-BothFaces-Edge.shader" t="Include" />
+            <e p="MMD4Mecanim-MMDLit-NoShadowCasting-BothFaces-Transparent-Edge.shader" t="Include" />
+            <e p="MMD4Mecanim-MMDLit-NoShadowCasting-BothFaces-Transparent.shader" t="Include" />
+            <e p="MMD4Mecanim-MMDLit-NoShadowCasting-BothFaces.shader" t="Include" />
+            <e p="MMD4Mecanim-MMDLit-NoShadowCasting-Edge.shader" t="Include" />
+            <e p="MMD4Mecanim-MMDLit-NoShadowCasting-Transparent-Edge.shader" t="Include" />
+            <e p="MMD4Mecanim-MMDLit-NoShadowCasting-Transparent.shader" t="Include" />
+            <e p="MMD4Mecanim-MMDLit-NoShadowCasting.shader" t="Include" />
+            <e p="MMD4Mecanim-MMDLit-Surface-ForwardAdd.cginc" t="Include" />
+            <e p="MMD4Mecanim-MMDLit-Surface-ForwardBase.cginc" t="Include" />
+            <e p="MMD4Mecanim-MMDLit-Surface-Lighting.cginc" t="Include" />
+            <e p="MMD4Mecanim-MMDLit-Surface-ShadowCaster.cginc" t="Include" />
+            <e p="MMD4Mecanim-MMDLit-Surface-ShadowCollector.cginc" t="Include" />
+            <e p="MMD4Mecanim-MMDLit-Surface-Tessellation.cginc" t="Include" />
+            <e p="MMD4Mecanim-MMDLit-SurfaceEdge-ForwardAdd.cginc" t="Include" />
+            <e p="MMD4Mecanim-MMDLit-SurfaceEdge-ForwardBase.cginc" t="Include" />
+            <e p="MMD4Mecanim-MMDLit-SurfaceEdge-Lighting.cginc" t="Include" />
+            <e p="MMD4Mecanim-MMDLit-Tess-BothFaces-Edge.shader" t="Include" />
+            <e p="MMD4Mecanim-MMDLit-Tess-BothFaces-Transparent-Edge.shader" t="Include" />
+            <e p="MMD4Mecanim-MMDLit-Tess-BothFaces-Transparent.shader" t="Include" />
+            <e p="MMD4Mecanim-MMDLit-Tess-BothFaces.shader" t="Include" />
+            <e p="MMD4Mecanim-MMDLit-Tess-Edge.shader" t="Include" />
+            <e p="MMD4Mecanim-MMDLit-Tess-NoShadowCasting-BothFaces-Edge.shader" t="Include" />
+            <e p="MMD4Mecanim-MMDLit-Tess-NoShadowCasting-BothFaces-Transparent-Edge.shader" t="Include" />
+            <e p="MMD4Mecanim-MMDLit-Tess-NoShadowCasting-BothFaces-Transparent.shader" t="Include" />
+            <e p="MMD4Mecanim-MMDLit-Tess-NoShadowCasting-BothFaces.shader" t="Include" />
+            <e p="MMD4Mecanim-MMDLit-Tess-NoShadowCasting-Edge.shader" t="Include" />
+            <e p="MMD4Mecanim-MMDLit-Tess-NoShadowCasting-Transparent-Edge.shader" t="Include" />
+            <e p="MMD4Mecanim-MMDLit-Tess-NoShadowCasting-Transparent.shader" t="Include" />
+            <e p="MMD4Mecanim-MMDLit-Tess-NoShadowCasting.shader" t="Include" />
+            <e p="MMD4Mecanim-MMDLit-Tess-Transparent-Edge.shader" t="Include" />
+            <e p="MMD4Mecanim-MMDLit-Tess-Transparent.shader" t="Include" />
+            <e p="MMD4Mecanim-MMDLit-Tess.shader" t="Include" />
+            <e p="MMD4Mecanim-MMDLit-Transparent-Edge.shader" t="Include" />
+            <e p="MMD4Mecanim-MMDLit-Transparent.shader" t="Include" />
+            <e p="MMD4Mecanim-MMDLit.shader" t="Include" />
+          </e>
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="DebugTriangleNormals.cs" t="Include" />
+          <e p="DrawNormals.cs" t="Include" />
+          <e p="SimpleCameraController.cs" t="Include" />
+        </e>
+        <e p="ShenliDance" t="Include">
+          <e p="Character" t="Include">
+            <e p="gs3LGNzzsM" t="Include">
+              <e p="tex" t="Include">
+                <e p="readme【一定要看】.txt" t="Include" />
+              </e>
+              <e p="神里绫华.MMD4Mecanim.xml" t="Include" />
+              <e p="神里绫华1.xml" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="ShenliLinghua" t="Include">
+          <e p="tex" t="Include">
+            <e p="readme【一定要看】.txt" t="Include" />
+          </e>
+        </e>
+        <e p="Standard Assets" t="Include">
+          <e p="Characters" t="Include">
+            <e p="ThirdPersonCharacter" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="AICharacterControl.cs" t="Include" />
+                <e p="ThirdPersonCharacter.cs" t="Include" />
+              </e>
+              <e p="ThirdPersonCharacterGuidelines.txt" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="ToonShade" t="Include">
+          <e p="Shader" t="Include">
+            <e p="SimpleToonFunctions.hlsl" t="Include" />
+            <e p="ToonLitForward.hlsl" t="Include" />
+            <e p="ToonLitInput.hlsl" t="Include" />
+            <e p="ToonLitLightingEquation.hlsl" t="Include" />
+            <e p="ToonLitOutline.shader" t="Include" />
+          </e>
+        </e>
+        <e p="TutorialInfo" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="Editor" t="Include">
+              <e p="ReadmeEditor.cs" t="Include" />
+            </e>
+            <e p="Readme.cs" t="Include" />
+          </e>
+        </e>
+        <e p="《原神》神里屋敷 社奉行本部" t="Include">
+          <e p="Readme.txt" t="Include" />
+        </e>
+      </e>
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="ShaderFrameworkProj.sln" t="IncludeFlat" />
+      <e p="Temp\Bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

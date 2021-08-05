@@ -180,7 +180,7 @@ Material:
     - _OcclusionStrength: 1
     - _OtherRimPow: 10
     - _OtherRimSmooth: 0.01
-    - _OutlineWidth: 1.4
+    - _OutlineWidth: 1.14
     - _OutlineZOffset: 0
     - _OutlineZOffsetMaskRemapEnd: 1
     - _OutlineZOffsetMaskRemapStart: 0
