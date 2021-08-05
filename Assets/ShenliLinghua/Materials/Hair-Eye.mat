@@ -188,7 +188,7 @@ Material:
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _EmissionMapChannelMask: {r: 1, g: 1, b: 1, a: 0}
     - _LightSpecColor: {r: 5.278032, g: 4.2854013, b: 3.4108036, a: 1}
-    - _OutlineColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _OutlineColor: {r: 0.27647483, g: 0.26174796, b: 0.3207547, a: 1}
     - _RimColor: {r: 0.3443396, g: 0.46575835, b: 1, a: 1}
     - _ShadowColor: {r: 0, g: 0, b: 0, a: 0}
     - _ShadowMapColor: {r: 0.6132076, g: 0, b: 0.16211835, a: 1}

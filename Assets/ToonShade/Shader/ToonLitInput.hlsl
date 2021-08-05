@@ -1,10 +1,5 @@
 ﻿#pragma once
-
-// Include this if you are doing a lit shader. This includes lighting shader variables,
-// lighting and shadow functions
-
-#include "SimpleToonFunctions.hlsl"
-
+//The inputs of the shader, includes declaration of Attributes and Varyings, and the Alpha functions
 struct Attributes
 {
     float3 positionOS: POSITION;

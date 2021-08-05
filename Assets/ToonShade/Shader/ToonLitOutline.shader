@@ -8,7 +8,7 @@
         [Header(Main Texture Setting)]
         [Space(5)]
         [MainTexture]_BaseMap ("_BaseMap (Albedo)", 2D) = "black" { }
-        [HDR][MainColor]_BaseColor ("_BaseColor", Color) = (1, 1, 1, 1)
+        [MainColor]_BaseColor ("_BaseColor", Color) = (1, 1, 1, 1)
         _WorldLightInfluence ("World Light Influence", range(0.0, 1.0)) = 0.1
         _BumpMap("NormalMap", 2D) = "white" {}
         _BumpScale("Normal Scale", float) = 1
@@ -30,7 +30,6 @@
         _ShadowArea ("Shadow Area", range(0.0, 1.0)) = 0.5
         _ShadowSmooth ("Shadow Smooth", range(0.0, 1.0)) = 0.05
         [HideInInspector]_LightMap ("LightMap", 2D) = "grey" { }
-        _ShadowColor("Shadow Color", Color) = (0, 0, 0, 0)
         [Space(30)]
 
         [Header(Shadow mapping)]
