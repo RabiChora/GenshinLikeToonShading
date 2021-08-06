@@ -14,6 +14,9 @@ This project refers to a lot of work done by others, like **[NiloCat](https://gi
 - PC package:https://drive.google.com/file/d/1YsRvVLL634HitELeI6vcnyz3rnQ2MWSs/view?usp=sharing
 - WebGL address:https://play.unity.com/mg/other/genshintoonshading_data
 
+***IF YOU CANNOT ACCESS GOOGLE***
+Try the Github release: [Genshin Toon Like Shading Release 1.0.0](https://github.com/RabiChora/GenshinLikeToonShading/releases/tag/1.0.0)
+
 **Hope you enjoyed :)**
 
 ### Take a look at the effects:
