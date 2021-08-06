@@ -8,6 +8,6 @@ public class LightRotator : MonoBehaviour
     void Update()
     {
         transform.localEulerAngles = new Vector3(transform.localEulerAngles.x, 
-            transform.localEulerAngles.y + 0.2f, transform.localEulerAngles.z);
+            transform.localEulerAngles.y + 0.15f, transform.localEulerAngles.z);
     }
 }

@@ -1,0 +1,14 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:VisualElement name="buildContainer" class="build-container">
+        <ui:VisualElement name="buildHeader" class="build-header">
+            <ui:VisualElement name="buildTextLabels" class="build-text-labels">
+                <ui:Label text="Build 1" name="lblGameTitle" class="build-name" />
+                <ui:Label text="Build Date: 25/02/2020 at 16.30" name="lblLastBuildInfo" class="build-date" />
+                <ui:Label text="Build size: 435,8 MB" name="lblBuildSize" class="build-date" />
+            </ui:VisualElement>
+            <ui:Button name="btnDelete" class="build-delete-button" />
+            <ui:Button name="btnOpenFolder" class="build-folder-button" />
+        </ui:VisualElement>
+        <ui:Button text="Publish" name="btnShare" class="build-share-button" />
+    </ui:VisualElement>
+</ui:UXML>

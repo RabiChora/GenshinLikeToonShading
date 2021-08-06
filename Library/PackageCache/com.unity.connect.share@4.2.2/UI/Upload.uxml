@@ -1,0 +1,18 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:VisualElement name="MainWindow" class="upload-main-container">
+        <Style src="Styles.uss" />
+        <ui:VisualElement name="titleContainer" class="upload-title-container">
+            <ui:Label text="Latest WebGL Builds" name="lblTitle" class="upload-title-label" />
+            <uie:ToolbarMenu name="menuHelp" class="upload-settings-dropdown" />
+        </ui:VisualElement>
+        <ui:ScrollView>
+            <ui:VisualElement name="buildsList" class="build-list">
+                <!--Containers go here-->
+            </ui:VisualElement>
+        </ui:ScrollView>
+    </ui:VisualElement>
+    <ui:VisualElement class="upload-footer-container">
+        <Style src="Styles.uss" />
+        <ui:Button text="Create New Build" name="btnNewBuild" class="bottom-button" />
+    </ui:VisualElement>
+</ui:UXML>

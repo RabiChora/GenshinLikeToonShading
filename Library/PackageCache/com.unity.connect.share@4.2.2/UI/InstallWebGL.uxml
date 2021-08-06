@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:VisualElement name="MainWindow" class="main-container main-container-light">
+        <Style src="Styles.uss" />
+        <ui:VisualElement name="imgLogo" class="status-icon status-icon-webgl-module"/>
+        <ui:Label text="WebGL Module Not Installed" name="lblTitle" class="progress-label" />
+        <ui:Label text="You need to install the WebGL module to build and share your game" name="lblSubTitle1" class="info-text" />
+    </ui:VisualElement>
+    <ui:Button text="How to Install WebGL Module" name="btnOpenInstallGuide" class="bottom-button">
+        <Style src="Styles.uss" />
+    </ui:Button>
+</ui:UXML>

@@ -1,21 +1,15 @@
 ﻿#pragma once
 
-
 #include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/Core.hlsl"
 #include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/Lighting.hlsl"
 
 #include "ToonLitInput.hlsl"
-#include "SimpleToonFunctions.hlsl"
-
-
-float3 TransformPositionWSToOutlinePositionWS(half vertexColorAlpha, float3 positionWS, float positionVS_Z, float3 normalWS)
-{
-    float outlineExpandAmount = vertexColorAlpha * _OutlineWidth * GetOutlineCameraFovAndDistanceFixMultiplier(positionVS_Z);
-    return positionWS + normalWS * outlineExpandAmount;
-}
-
+#include "ToonLitFunctions.hlsl"
 #include "ToonLitLightingEquation.hlsl"
 
+
+
+// Vert function for Outline
 Varyings OutlinePassVertex(Attributes input)
 {
     Varyings output = (Varyings)0;
@@ -33,15 +27,15 @@ Varyings OutlinePassVertex(Attributes input)
     output.positionVS = TransformWorldToView(output.positionWSAndFogFactor.xyz);
     output.positionCS = TransformWorldToHClip(output.positionWSAndFogFactor.xyz);
 
-    // #ifdef ToonShaderIsOutline
-    output.positionWSAndFogFactor.xyz = TransformPositionWSToOutlinePositionWS(input.color.a, output.positionWSAndFogFactor.xyz, output.positionVS.z, output.normalWS);
-    // #endif
+    // worldPos for outline
+    output.positionWSAndFogFactor.xyz =
+        TransformPositionWSToOutlinePositionWS(input.color.a, output.positionWSAndFogFactor.xyz, output.positionVS.z, output.normalWS);
+
     output.positionCS = TransformWorldToHClip(output.positionWSAndFogFactor.xyz);
     float outlineZOffsetMaskTexExplictMipLevel = 0;
-    float outlineZOffsetMask = tex2Dlod(_OutlineZOffsetMaskTex, float4(input.texcoord,0,outlineZOffsetMaskTexExplictMipLevel)).r; //we assume it is a Black/White texture
+    float outlineZOffsetMask = tex2Dlod(_OutlineZOffsetMaskTex, float4(input.texcoord,0,outlineZOffsetMaskTexExplictMipLevel)).r;
 
-    // [Remap ZOffset texture value]
-    // flip texture read value so default black area = apply ZOffset, because usually outline mask texture are using this format(black = hide outline)
+    // default black area = apply ZOffset
     outlineZOffsetMask = 1-outlineZOffsetMask;
     output.positionCS = GetNewClipPosWithZOffset(output.positionCS, _OutlineZOffset * outlineZOffsetMask + 0.03 * _IsFace);
 
@@ -54,13 +48,12 @@ Varyings OutlinePassVertex(Attributes input)
     output.uv.xy = TRANSFORM_TEX(input.texcoord, _BaseMap);
     output.uv.zw = TRANSFORM_TEX(input.texcoord, _BloomMap);
     
-
     output.shadowCoord = TransformWorldToShadowCoord(output.positionWSAndFogFactor.xyz);
     output.positionSS = ComputeScreenPos(output.positionCS);
     return output;
 }
 
-            
+// Frag Func for outline
 float4 OutlinePassFragment(Varyings input): COLOR
 {
     half4 baseColor = SAMPLE_TEXTURE2D(_BaseMap, sampler_BaseMap, input.uv.xy);
@@ -105,8 +98,7 @@ Varyings ToonPassVertex(Attributes input)
     real sign = input.tangentOS.w * GetOddNegativeScale();
     output.tangentWS = half4(vertexNormalInput.tangentWS.xyz,sign);
     output.positionSS = ComputeScreenPos(output.positionCS);
-    return output;
-    
+    return output;    
 }
 
 float3 ShadowProjectPos(float3 vertPos, float3 lightDir)
@@ -120,41 +112,6 @@ float3 ShadowProjectPos(float3 vertPos, float3 lightDir)
     return shadowPos;
 }
 
-Varyings ShadowPassVertex(Attributes input)
-{
-    Varyings output;
-    VertexPositionInputs vertexInput = GetVertexPositionInputs(input.positionOS);
-
-    output.shadowCoord = GetShadowCoord(vertexInput);
-
-    UNITY_SETUP_INSTANCE_ID(input);
-    return output;
-}
-
-half4 ShadowPassFragment(Varyings input) : SV_TARGET
-{
-    UNITY_SETUP_STEREO_EYE_INDEX_POST_VERTEX(input);
-    float deviceDepth = SAMPLE_TEXTURE2D_X(_CameraDepthTexture, sampler_CameraDepthTexture, input.uv.xy).r;
-
-    #if UNITY_REVERSED_Z
-    deviceDepth = 1 - deviceDepth;
-    #endif
-    deviceDepth = 2 * deviceDepth - 1; //NOTE: Currently must massage depth before computing CS position.
-
-    float3 vpos = ComputeViewSpacePosition(input.uv.zw, deviceDepth, unity_CameraInvProjection);
-    float3 wpos = mul(unity_CameraToWorld, float4(vpos, 1)).xyz;
-
-    //Fetch shadow coordinates for cascade.
-    float4 coords = TransformWorldToShadowCoord(wpos);
-
-    // Screenspace shadowmap is only used for directional lights which use orthogonal projection.
-    ShadowSamplingData shadowSamplingData = GetMainLightShadowSamplingData();
-    half4 shadowParams = GetMainLightShadowParams();
-
-    half4 shadow =
-        SampleShadowmap(TEXTURE2D_ARGS(_MainLightShadowmapTexture, sampler_MainLightShadowmapTexture), coords, shadowSamplingData, shadowParams, false);
-    return shadow;
-}
 
 half4 FragmentAlphaClip(Varyings input): SV_TARGET
 {
@@ -196,19 +153,6 @@ half4 GetFinalSpecular(Varyings input)
     return specularColor;
 }
 
-float GetSSRimScale(float z)
-{
-    float w = (1.0 / (PositivePow(z + saturate(UNITY_MATRIX_P._m00), 1.5) + 0.75)) * (_ScreenParams.y / 1080);
-    w *= lerp(1, UNITY_MATRIX_P._m00, 0.60 * saturate(0.25 * z * z));
-    return w < 0.01 ? 0: w;
-}
-
-float LoadCameraDepth(uint2 pixelCoords)
-{
-    return LOAD_TEXTURE2D_X_LOD(_CameraDepthTexture, pixelCoords, 0).r;
-}
-
-
 half4 GetFinalRimLight(Varyings input)
 {
     Light mainLight = GetMainLight(input.shadowCoord);
@@ -224,23 +168,6 @@ half4 GetFinalRimLight(Varyings input)
     float rimIntensity = smoothstep(0, _RimSmooth, rimDot);
     half4 mask = SAMPLE_TEXTURE2D(_RimMask, sampler_RimMask, input.uv);
     half4 Rim = _EnableRim * pow(rimIntensity, 5) * _RimColor * mask;
-
-    // //SSRim
-    // half3 N_view = normalize(mul((float3x3)UNITY_MATRIX_V, input.normalWS));
-    // half3 L_view = normalize(mul((float3x3)UNITY_MATRIX_V, mainLight.direction));
-    // half NdotL = dot(N_view, L_view);
-    //
-    // float2 ssUV = (input.positionSS.xy / input.positionSS.w);
-    // float2 ssUVNew = ssUV + N_view * NdotL * _RimWidth * input.color.b * 40 * GetSSRimScale(input.positionVS.z);
-    // float depthTex = LoadCameraDepth(clamp(ssUVNew, 0, _ScreenParams.xy - 1));
-    // float depthScene = LinearEyeDepth(depthTex, _ZBufferParams);
-    // float depthDiff = depthScene - input.positionVS.z;
-    // float intensity = smoothstep(0.24 * _RimSmooth * input.positionVS.z, 0.25 * input.positionVS.z, depthDiff);
-    // intensity *= _RimColor.a;
-    //         
-    // float3 ssColor = intensity * lerp(1, mainLight.color, _RimLightBlend) * lerp(_RimColor.rgb, mainLight.color, _RimLightBlendPoint);
-    // ssColor = intensity;
-    // //Rim.rgb = _EnableRim * ssColor ;
     
     Rim.a =  _RimColor.a;
     
@@ -276,7 +203,6 @@ ToonSurfaceData InitializeSurfaceData(Varyings input)
     float4 baseColorFinal = GetFinalBaseColor(input);
     output.albedo = baseColorFinal.rgb;
     output.alpha = baseColorFinal.a;
-    DoClipTestToTargetAlphaValue(output.alpha);// early exit if possible
 
     // emission
     output.emission = GetFinalEmissionColor(input);
@@ -311,11 +237,12 @@ half3 ShadeAllLight(Varyings input, ToonSurfaceData surfaceData, LightingData li
     half3 indirectResult = ShadeGI(surfaceData, lightingData);
     Light mainLight = GetMainLight(input.shadowCoord);
 
-    float shadowMapPos = _ReceiveShadowMappingPosOffset + _IsFace;
+    float shadowMapPos = _ReceiveShadowMappingPosOffset + _IsFace;//apply bias
     float3 shadowTestPosWS = lightingData.positionWS + mainLight.direction * shadowMapPos;
+    
     #ifdef _MAIN_LIGHT_SHADOWS
         float4 shadowCoord = TransformWorldToShadowCoord(shadowTestPosWS);
-        mainLight.shadowAttenuation = MainLightRealtimeShadow(shadowCoord);
+        mainLight.shadowAttenuation = MainLightRealtimeShadow_custom(shadowCoord);
     #endif
 
     half3 mainLightResult = ShadeSingleLight(surfaceData, lightingData, mainLight, false);
@@ -326,8 +253,8 @@ half3 ShadeAllLight(Varyings input, ToonSurfaceData surfaceData, LightingData li
     for (uint i = 0u; i < additionalLightsCount; ++i)
     {
         int perObjectLightIndex = GetPerObjectLightIndex(i);
-        Light light = GetAdditionalPerObjectLight(perObjectLightIndex, lightingData.positionWS); // use original positionWS for lighting
-        light.shadowAttenuation = AdditionalLightRealtimeShadow(perObjectLightIndex, shadowTestPosWS); // use offseted positionWS for shadow test
+        Light light = GetAdditionalPerObjectLight(perObjectLightIndex, lightingData.positionWS); 
+        light.shadowAttenuation = AdditionalLightRealtimeShadow(perObjectLightIndex, shadowTestPosWS); 
 
         additionalLightSumResult += ShadeSingleLight(surfaceData, lightingData, light, true);
     }

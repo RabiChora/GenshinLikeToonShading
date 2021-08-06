@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:VisualElement name="MainWindow" class="main-container main-container-light">
+        <Style src="Styles.uss" />
+        <ui:VisualElement name="imgError" class="status-icon status-icon-error" />
+        <ui:Label text="Something Went Wrong" name="lblTitle" class="progress-label" />
+        <ui:Label text="Error message" name="lblError" class="info-text" />
+    </ui:VisualElement>
+    <ui:Button text="Go Back" name="btnBack" class="bottom-button">
+        <Style src="Styles.uss" />
+    </ui:Button>
+</ui:UXML>

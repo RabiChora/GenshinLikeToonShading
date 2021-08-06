@@ -1,0 +1,74 @@
+.upload-main-container .upload-title-container {
+    background-color: rgba(255, 255, 255, 0.05);
+    border-bottom-color: rgba(0, 0, 0, 0.4);
+}
+
+#Header.header-container {
+    border-bottom-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+
+.build-list .build-container {
+    background-color: rgba(255, 255, 255, 0.05);
+    border-left-color: rgba(0, 0, 0, 0.4);
+    border-right-color: rgba(0, 0, 0, 0.4);
+    border-top-color: rgba(0, 0, 0, 0.4);
+    border-bottom-color: rgba(0, 0, 0, 0.4);
+}
+
+.build-list .build-share-button {
+    border-left-color: rgba(0, 0, 0, 0.5);
+    border-right-color: rgba(0, 0, 0, 0.5);
+    border-top-color: rgba(0, 0, 0, 0.5);
+    border-bottom-color: rgba(0, 0, 0, 0.5);
+}
+
+.main-container.main-container-light {
+    background-color: rgba(255, 255, 255, 0.03);
+    border-bottom-color: rgba(0, 0, 0, 0.4);
+}
+
+.header-thumbnail {
+    background-image: resource("Dark/icon-image");
+}
+
+.upload-title-container .upload-settings-dropdown {
+    background-image: resource("Dark/icon-settings");
+}
+
+.build-header .build-folder-button {
+    background-image: resource("Dark/icon-folder");
+}
+
+.build-header .build-delete-button {
+    background-image: resource("Dark/icon-delete");
+}
+
+.status-icon.status-icon-error {
+    background-image: resource("Dark/icon-error");
+}
+
+.status-icon.status-icon-webgl-module {
+    background-image: resource("Dark/icon-webgl-module");
+}
+
+.status-icon.status-icon-build-and-share {
+    background-image: resource("Dark/icon-build-and-share");
+}
+
+.status-icon.status-icon-uploading {
+    background-image: resource("Dark/icon-uploading");
+}
+
+.status-icon.status-icon-account {
+    background-image: resource("Dark/icon-account");
+}
+
+.status-icon.status-icon-success {
+    background-image: resource("Dark/icon-success");
+}
+
+.status-icon.status-icon-processing {
+    background-image: resource("Dark/icon-processing");
+}

@@ -1,0 +1,349 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: Mon Mar 15 2021 05:58:47 GMT+0000 (Coordinated Universal Time)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: po-conv\n"
+"Language: zh-hant\n"
+"Project-Id-Version: 441\n"
+
+#. 23421267
+#: com.unity.connect.share.pot:1
+msgctxt "Publish"
+msgid "WINDOW_TITLE"
+msgstr "發佈"
+
+#. 23421268
+#: com.unity.connect.share.pot:2
+msgctxt "WebGL Publisher"
+msgid "INTRODUCTION_TITLE"
+msgstr "WebGL 發行商"
+
+#. 24802969
+#: com.unity.connect.share.pot:3
+msgctxt "Create a WebGL build of your project and publish it to Unity Play. Your project will have its own, shareable webpage."
+msgid "INTRODUCTION_SUBTITLE_1"
+msgstr "建立專案的 WebGL 版並發佈到 Unity Play。專案就會有可以分享的頁面了。"
+
+#. 23421269
+#: com.unity.connect.share.pot:4
+msgctxt "Get started"
+msgid "INTRODUCTION_BUTTON"
+msgstr "開始"
+
+#. 23421270
+#: com.unity.connect.share.pot:5
+msgctxt "Please sign in"
+msgid "NOTLOGGEDIN_TITLE"
+msgstr "請登入"
+
+#. 23421271
+#: com.unity.connect.share.pot:6
+msgctxt "To publish your project, please sign in"
+msgid "NOTLOGGEDIN_SUBTITLE_1"
+msgstr "要發佈專案，請先登入"
+
+#. 23421272
+#: com.unity.connect.share.pot:7
+msgctxt "Sign In"
+msgid "NOTLOGGEDIN_BUTTON"
+msgstr "登入"
+
+#. 23421273
+#: com.unity.connect.share.pot:8
+msgctxt "WebGL Module Not Installed"
+msgid "INSTALLWEBGL_TITLE"
+msgstr "尚未安裝WebGL模組"
+
+#. 23421274
+#: com.unity.connect.share.pot:9
+msgctxt "Please install the WebGL module before building your game"
+msgid "INSTALLWEBGL_SUBTITLE_1"
+msgstr "請先安裝WebGL模組後才能打包你的遊戲"
+
+#. 23421275
+#: com.unity.connect.share.pot:10
+msgctxt "How to Install WebGL Module"
+msgid "INSTALLWEBGL_BUTTON"
+msgstr "如何安裝WebGL模組"
+
+#. 23421276
+#: com.unity.connect.share.pot:11
+msgctxt "Create WebGL Build"
+msgid "NOBUILD_TITLE"
+msgstr "建立WebGL版本"
+
+#. 24802970
+#: com.unity.connect.share.pot:12
+msgctxt "Your WebGL project will be public on Unity Play. Your first build might take some time, and the Editor will be unresponsive during the build."
+msgid "NOBUILD_INSTRUCTIONS"
+msgstr "你的WebGL 專案會在 Unity Play 上發佈。第一次發佈可能需要一些時間，且發佈期間Unity編輯器會一段時間沒有回應。"
+
+#. 23421277
+#: com.unity.connect.share.pot:13
+msgctxt "Build and Publish"
+msgid "NOBUILD_BUTTON_BUILD_AUTOPUBLISH"
+msgstr "打包並發佈"
+
+#. 23421278
+#: com.unity.connect.share.pot:14
+msgctxt "Create WebGL Build"
+msgid "NOBUILD_BUTTON_BUILD_MANUALPUBLISH"
+msgstr "建立WebGL版本"
+
+#. 23421279
+#: com.unity.connect.share.pot:15
+msgctxt "Create WebGL Build and Publish to Unity Play"
+msgid "NOBUILD_BUTTON_BUILD_AUTOPUBLISH_TOOLTIP"
+msgstr "建立WebGL版本並發佈到Unity Play"
+
+#. 23421280
+#: com.unity.connect.share.pot:16
+msgctxt "Create New WebGL Build"
+msgid "NOBUILD_BUTTON_BUILD_MANUALPUBLISH_TOOLTIP"
+msgstr "建立新的WebGL版本"
+
+#. 23421281
+#: com.unity.connect.share.pot:17
+msgctxt "Locate Existing Build"
+msgid "NOBUILD_BUTTON_LOCATE"
+msgstr "查看現有版本"
+
+#. 23421282
+#: com.unity.connect.share.pot:18
+msgctxt "Upload Completed"
+msgid "SUCCESS_MESSAGE"
+msgstr "上傳完成"
+
+#. 23421283
+#: com.unity.connect.share.pot:19
+msgctxt "Opening browser window..."
+msgid "SUCCESS_ADVICE"
+msgstr "正在開啟瀏覽器視窗..."
+
+#. 23421284
+#: com.unity.connect.share.pot:20
+msgctxt "Click here if nothing happens"
+msgid "SUCCESS_LINK"
+msgstr "如果沒有反應請點擊這裏"
+
+#. 23421285
+#: com.unity.connect.share.pot:21
+msgctxt "Done"
+msgid "SUCCESS_BUTTON"
+msgstr "完成"
+
+#. 23421286
+#: com.unity.connect.share.pot:22
+msgctxt "Something Went Wrong"
+msgid "ERROR_TITLE"
+msgstr "出錯了"
+
+#. 23421287
+#: com.unity.connect.share.pot:23
+msgctxt "Go Back"
+msgid "ERROR_BUTTON"
+msgstr "返回"
+
+#. 23421288
+#: com.unity.connect.share.pot:24
+msgctxt "Uploading ({0}%)..."
+msgid "UPLOADING_PROGRESS"
+msgstr "正在上傳 ({0}%) ..."
+
+#. 23421289
+#: com.unity.connect.share.pot:25
+msgctxt "Cancel"
+msgid "UPLOADING_BUTTON"
+msgstr "取消"
+
+#. 23421290
+#: com.unity.connect.share.pot:26
+msgctxt "Processing ({0}%)..."
+msgid "PROCESSING_PROGRESS"
+msgstr "正在處理 ({0}%) ..."
+
+#. 23421291
+#: com.unity.connect.share.pot:27
+msgctxt "Cancel"
+msgid "PROCESSING_BUTTON"
+msgstr "取消"
+
+#. 23421292
+#: com.unity.connect.share.pot:28
+msgctxt "Latest WebGL Builds"
+msgid "UPLOAD_TITLE"
+msgstr "最新的WebGL版本"
+
+#. 23421293
+#: com.unity.connect.share.pot:29
+msgctxt "Create and Publish New Build"
+msgid "UPLOAD_BUTTON_BUILD_AUTOPUBLISH"
+msgstr "建立並發佈最新版"
+
+#. 23421294
+#: com.unity.connect.share.pot:30
+msgctxt "Create New Build"
+msgid "UPLOAD_BUTTON_BUILD_MANUALPUBLISH"
+msgstr "建立新版本"
+
+#. 23421295
+#: com.unity.connect.share.pot:31
+msgctxt "Open Build Settings..."
+msgid "UPLOAD_MENU_BUTTON_SETTINGS"
+msgstr "開啟打包設定"
+
+#. 23421296
+#: com.unity.connect.share.pot:32
+msgctxt "Locate Build..."
+msgid "UPLOAD_MENU_BUTTON_LOCATEBUILD"
+msgstr "查找版本..."
+
+#. 23421297
+#: com.unity.connect.share.pot:33
+msgctxt "WebGL Build Tutorial"
+msgid "UPLOAD_MENU_BUTTON_TUTORIAL"
+msgstr "WebGL打包教學"
+
+#. 23421298
+#: com.unity.connect.share.pot:34
+msgctxt "Auto-publish after build is completed"
+msgid "UPLOAD_MENU_BUTTON_AUTOPUBLISH"
+msgstr "打包完成後自動發佈"
+
+#. 23421299
+#: com.unity.connect.share.pot:35
+msgctxt "Delete Build"
+msgid "UPLOAD_CONTAINER_BUTTON_DELETE_TOOLTIP"
+msgstr "刪除版本"
+
+#. 23421300
+#: com.unity.connect.share.pot:36
+msgctxt "Reveal Build Folder"
+msgid "UPLOAD_CONTAINER_BUTTON_OPEN_TOOLTIP"
+msgstr "顯示版本資料夾"
+
+#. 23421301
+#: com.unity.connect.share.pot:37
+msgctxt "Publish"
+msgid "UPLOAD_CONTAINER_BUTTON_PUBLISH"
+msgstr "發佈"
+
+#. 23421302
+#: com.unity.connect.share.pot:38
+msgctxt "Publish WebGL Build to Unity Play"
+msgid "UPLOAD_CONTAINER_BUTTON_PUBLISH_TOOLTIP"
+msgstr "將WebGL版本發佈到Unity Play"
+
+#. 23421303
+#: com.unity.connect.share.pot:39
+msgctxt "Build Size: {0}"
+msgid "UPLOAD_CONTAINER_BUILD_SIZE"
+msgstr "版本大小: {0}"
+
+#. 23421304
+#: com.unity.connect.share.pot:40
+msgctxt "Created: {0} with Unity {1}"
+msgid "UPLOAD_CONTAINER_CREATION_DATE"
+msgstr "已建立: {0} - Unity {1}"
+
+#. 23421305
+#: com.unity.connect.share.pot:41
+msgctxt "Switch Platform"
+msgid "POPUP_SWITCH_TITLE"
+msgstr "切換平台"
+
+#. 24802971
+#: com.unity.connect.share.pot:42
+msgctxt "WebGL is not the selected platform. Would you like to switch to it now?"
+msgid "POPUP_SWITCH_MESSAGE"
+msgstr "WebGL不是所選平台，是否切換過去？"
+
+#. 23421306
+#: com.unity.connect.share.pot:43
+msgctxt "Switch to WebGL"
+msgid "POPUP_SWITCH_YES"
+msgstr "切換到WebGL"
+
+#. 23421307
+#: com.unity.connect.share.pot:44
+msgctxt "Cancel"
+msgid "POPUP_SWITCH_NO"
+msgstr "取消"
+
+#. 23421308
+#: com.unity.connect.share.pot:45
+msgctxt "Remove Build from List"
+msgid "POPUP_DELETE_TITLE"
+msgstr "從清單中移除版本"
+
+#. 23421309
+#: com.unity.connect.share.pot:46
+msgctxt "Do you want to remove \"{0}\" from the list?"
+msgid "POPUP_DELETE_MESSAGE"
+msgstr "要從清單中移除 \"{0}\" 嗎?"
+
+#. 23421310
+#: com.unity.connect.share.pot:47
+msgctxt "Remove from List"
+msgid "POPUP_DELETE_YES"
+msgstr "從清單中移除"
+
+#. 23421311
+#: com.unity.connect.share.pot:48
+msgctxt "Cancel"
+msgid "POPUP_DELETE_NO"
+msgstr "取消"
+
+#. 23421312
+#: com.unity.connect.share.pot:49
+msgctxt "Max. allowed WebGL game .zip size is {0}."
+msgid "ERROR_MAX_SIZE"
+msgstr "允許的WebGL遊戲壓縮檔.zip大小是{0}"
+
+#. 23421313
+#: com.unity.connect.share.pot:50
+msgctxt "Project must be built first!"
+msgid "ERROR_BUILD_ABSENT"
+msgstr "必須先打包專案！"
+
+#. 23421314
+#: com.unity.connect.share.pot:51
+msgctxt "Build folder not found"
+msgid "ERROR_BUILD_NOT_FOUND"
+msgstr "找不到版本資料夾"
+
+#. 24802972
+#: com.unity.connect.share.pot:52
+msgctxt "This build is corrupted or missing. Please delete it and choose another one to publish."
+msgid "ERROR_BUILD_CORRUPTED"
+msgstr "此版本已經損壞或遺失，請刪除並另選發佈版本"
+
+#. 23421315
+#: com.unity.connect.share.pot:53
+msgctxt "Choose folder"
+msgid "DIALOG_CHOOSE_FOLDER"
+msgstr "選擇資料夾"
+
+#. 23421316
+#: com.unity.connect.share.pot:54
+msgctxt "Choose Folder for New WebGL Build"
+msgid "DIALOG_CHOOSE_BUILD_FOLDER"
+msgstr "為新的WebGL版本選擇資料夾"
+
+#. 24802973
+#: com.unity.connect.share.pot:55
+msgid "POPUP_SAVE_SCENE_TITLE"
+msgstr "儲存你的場景"
+
+#. 24802974
+#: com.unity.connect.share.pot:56
+msgid "POPUP_SAVE_SCENE_MESSAGE"
+msgstr "建立一個WebGL包之前，你需要先儲存你的場景。按下Ctrl / Cmd +S 或到File > Save存檔 。存檔後就可以開始打包流程。"
+
+#. 24802975
+#: com.unity.connect.share.pot:57
+msgid "POPUP_SAVE_SCENE_OK"
+msgstr "OK"

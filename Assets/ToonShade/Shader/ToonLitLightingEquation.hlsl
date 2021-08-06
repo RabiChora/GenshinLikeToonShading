@@ -1,20 +1,31 @@
 ﻿#pragma once
 #include "ToonLitInput.hlsl"
 
+
 half3 ShadeGI(ToonSurfaceData surfaceData, LightingData lightingData)
 {
-    // hide 3D feeling by ignoring all detail SH (leaving only the constant SH term)
-    // we just want some average envi indirect color only
     half3 averageSH = SampleSH(0);
 
-    // can prevent result becomes completely black if lightprobe was not baked 
     averageSH = max(_ShadowMultColor,averageSH);
-
     return averageSH;
 }
 
-// Most important part: lighting equation, edit it according to your needs, write whatever you want here, be creative!
-// This function will be used by all direct lights (directional/point/spot)
+half MainLightRealtimeShadow_custom(float4 shadowCoord)
+{
+    #if !defined(MAIN_LIGHT_CALCULATE_SHADOWS)
+    return 1.0h;
+    #endif
+
+    #if SHADOWS_SCREEN
+    return SampleScreenSpaceShadowmap(shadowCoord);
+    #else
+        ShadowSamplingData shadowSamplingData = GetMainLightShadowSamplingData();
+        half4 shadowParams = GetMainLightShadowParams();
+        return SampleShadowmap(TEXTURE2D_ARGS(_MainLightShadowmapTexture, sampler_MainLightShadowmapTexture), shadowCoord, shadowSamplingData, shadowParams, false);
+    #endif
+}
+
+// Lighting Equations, will be used for all directional lights
 half3 ShadeSingleLight(ToonSurfaceData surfaceData, LightingData lightingData, Light light, bool isAdditionalLight)
 {
     half3 N = lightingData.normalWS;
@@ -24,18 +35,16 @@ half3 ShadeSingleLight(ToonSurfaceData surfaceData, LightingData lightingData, L
 
     half lightAttenuation = 1;
 
-    // light's distance & angle fade for point light & spot light (see GetAdditionalPerObjectLight(...) in Lighting.hlsl)
-    // Lighting.hlsl -> https://github.com/Unity-Technologies/Graphics/blob/master/com.unity.render-pipelines.universal/ShaderLibrary/Lighting.hlsl
-    half distanceAttenuation = min(4,light.distanceAttenuation); //clamp to prevent light over bright if point/spot light too close to vertex
+    // light's distance & angle fade for point light & spot light
+    half distanceAttenuation = min(4,light.distanceAttenuation); 
 
-    // N dot L
-    // simplest 1 line cel shade, you can always replace this line by your own method!
+    // N dot L applied
     half litOrShadowArea = smoothstep(_ShadowArea-_ShadowSmooth,_ShadowArea+_ShadowSmooth, NoL);
 
-    // face ignore celshade since it is usually very ugly using NoL method
+    // face ignore normalShade since it is usually very ugly using NoL on faces
     litOrShadowArea = _IsFace? lerp(0.5,1,litOrShadowArea) : litOrShadowArea;
 
-    // light's shadow map
+    // Shadow map
     litOrShadowArea *= lerp(1,light.shadowAttenuation,_ReceiveShadowMappingAmount);
 
     half3 litOrShadowColor = lerp(_ShadowMapColor,1, litOrShadowArea);
@@ -47,10 +56,11 @@ half3 ShadeSingleLight(ToonSurfaceData surfaceData, LightingData lightingData, L
 
 half3 ShadeEmission(ToonSurfaceData surfaceData, LightingData lightingData)
 {
-    half3 emissionResult = lerp(surfaceData.emission, surfaceData.emission * surfaceData.albedo, _EmissionMulByBaseColor); // optional mul albedo
+    half3 emissionResult = lerp(surfaceData.emission, surfaceData.emission * surfaceData.albedo, _EmissionMulByBaseColor);
     return emissionResult;
 }
 
+// Putting everything together
 half3 CompositeAllLightResults(half3 indirectResult, half3 mainLightResult, half3 additionalLightSumResult, half3 emissionResult, ToonSurfaceData surfaceData, LightingData lightingData)
 {
     half3 rawLightSum = max(indirectResult, mainLightResult + additionalLightSumResult);

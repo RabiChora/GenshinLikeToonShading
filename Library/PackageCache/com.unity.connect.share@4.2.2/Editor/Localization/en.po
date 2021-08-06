@@ -1,0 +1,179 @@
+"POT-Creation-Date: Thu Oct 08 2020 02:33:26 GMT+0000 (Coordinated Universal Time)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: po-conv\n"
+"Language: en\n"
+"Project-Id-Version: com.unity.connect.share@2.2.0\n"
+
+msgid "WINDOW_TITLE"
+msgstr "Publish"
+
+msgid "INTRODUCTION_TITLE"
+msgstr "WebGL Publisher"
+
+msgid "INTRODUCTION_SUBTITLE_1"
+msgstr "Create a WebGL build of your project and publish it to Unity Play. Your project will have its own, shareable webpage."
+
+msgid "INTRODUCTION_BUTTON"
+msgstr "Get started"
+
+msgid "NOTLOGGEDIN_TITLE"
+msgstr "Please sign in"
+
+msgid "NOTLOGGEDIN_SUBTITLE_1"
+msgstr "To publish your project, please sign in"
+
+msgid "NOTLOGGEDIN_BUTTON"
+msgstr "Sign In"
+
+msgid "INSTALLWEBGL_TITLE"
+msgstr "WebGL Module Not Installed"
+
+msgid "INSTALLWEBGL_SUBTITLE_1"
+msgstr "Please install the WebGL module before building your game"
+
+msgid "INSTALLWEBGL_BUTTON"
+msgstr "How to Install WebGL Module"
+
+msgid "NOBUILD_TITLE"
+msgstr "Create WebGL Build"
+
+msgid "NOBUILD_INSTRUCTIONS"
+msgstr "Your WebGL project will be public on Unity Play. Your first build might take some time, and the Editor will be unresponsive during the build."
+
+msgid "NOBUILD_BUTTON_BUILD_AUTOPUBLISH"
+msgstr "Build and Publish"
+
+msgid "NOBUILD_BUTTON_BUILD_MANUALPUBLISH"
+msgstr "Create WebGL Build"
+
+msgid "NOBUILD_BUTTON_BUILD_AUTOPUBLISH_TOOLTIP"
+msgstr "Create WebGL Build and Publish to Unity Play"
+
+msgid "NOBUILD_BUTTON_BUILD_MANUALPUBLISH_TOOLTIP"
+msgstr "Create New WebGL Build"
+
+msgid "NOBUILD_BUTTON_LOCATE"
+msgstr "Locate Existing Build"
+
+msgid "SUCCESS_MESSAGE"
+msgstr "Upload Completed"
+
+msgid "SUCCESS_ADVICE"
+msgstr "Opening browser window..."
+
+msgid "SUCCESS_LINK"
+msgstr "Click here if nothing happens"
+
+msgid "SUCCESS_BUTTON"
+msgstr "Done"
+
+msgid "ERROR_TITLE"
+msgstr "Something Went Wrong"
+
+msgid "ERROR_BUTTON"
+msgstr "Go Back"
+
+msgid "UPLOADING_PROGRESS"
+msgstr "Uploading ({0}%)..."
+
+msgid "UPLOADING_BUTTON"
+msgstr "Cancel"
+
+msgid "PROCESSING_PROGRESS"
+msgstr "Processing ({0}%)..."
+
+msgid "PROCESSING_BUTTON"
+msgstr "Cancel"
+
+msgid "UPLOAD_TITLE"
+msgstr "Latest WebGL Builds"
+
+msgid "UPLOAD_BUTTON_BUILD_AUTOPUBLISH"
+msgstr "Create and Publish New Build"
+
+msgid "UPLOAD_BUTTON_BUILD_MANUALPUBLISH"
+msgstr "Create New Build"
+
+msgid "UPLOAD_MENU_BUTTON_SETTINGS"
+msgstr "Open Build Settings..."
+
+msgid "UPLOAD_MENU_BUTTON_LOCATEBUILD"
+msgstr "Locate Build..."
+
+msgid "UPLOAD_MENU_BUTTON_TUTORIAL"
+msgstr "WebGL Build Tutorial"
+
+msgid "UPLOAD_MENU_BUTTON_AUTOPUBLISH"
+msgstr "Auto-publish after build is completed"
+
+msgid "UPLOAD_CONTAINER_BUTTON_DELETE_TOOLTIP"
+msgstr "Delete Build"
+
+msgid "UPLOAD_CONTAINER_BUTTON_OPEN_TOOLTIP"
+msgstr "Reveal Build Folder"
+
+msgid "UPLOAD_CONTAINER_BUTTON_PUBLISH"
+msgstr "Publish"
+
+msgid "UPLOAD_CONTAINER_BUTTON_PUBLISH_TOOLTIP"
+msgstr "Publish WebGL Build to Unity Play"
+
+msgid "UPLOAD_CONTAINER_BUILD_SIZE"
+msgstr "Build Size: {0}"
+
+msgid "UPLOAD_CONTAINER_CREATION_DATE"
+msgstr "Created: {0} with Unity {1}"
+
+msgid "POPUP_SWITCH_TITLE"
+msgstr "Switch Platform"
+
+msgid "POPUP_SWITCH_MESSAGE"
+msgstr "WebGL is not the selected platform. Would you like to switch to it now?"
+
+msgid "POPUP_SWITCH_YES"
+msgstr "Switch to WebGL"
+
+msgid "POPUP_SWITCH_NO"
+msgstr "Cancel"
+
+msgid "POPUP_DELETE_TITLE"
+msgstr "Remove Build from List"
+
+msgid "POPUP_DELETE_MESSAGE"
+msgstr "Do you want to remove \"{0}\" from the list?"
+
+msgid "POPUP_DELETE_YES"
+msgstr "Remove from List"
+
+msgid "POPUP_DELETE_NO"
+msgstr "Cancel"
+
+msgid "ERROR_MAX_SIZE"
+msgstr "Max. allowed WebGL game .zip size is {0}."
+
+msgid "ERROR_BUILD_ABSENT"
+msgstr "Project must be built first!"
+
+msgid "ERROR_BUILD_NOT_FOUND"
+msgstr "Build folder not found"
+
+msgid "ERROR_BUILD_CORRUPTED"
+msgstr "This build is corrupted or missing. Please delete it and choose another one to publish."
+
+msgid "DIALOG_CHOOSE_FOLDER"
+msgstr "Choose folder"
+
+msgid "DIALOG_CHOOSE_BUILD_FOLDER"
+msgstr "Choose Folder for New WebGL Build"
+
+msgid "POPUP_SAVE_SCENE_TITLE"
+msgstr "Save your Scene"
+
+msgid "POPUP_SAVE_SCENE_MESSAGE"
+msgstr "Before creating a WebGL build, you need to save your Scene. Press Ctrl / Cmd + S or go to File > Save. After saving, you can start the build process."
+
+msgid "POPUP_SAVE_SCENE_OK"
+msgstr "Ok"

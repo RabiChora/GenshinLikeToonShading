@@ -35,7 +35,6 @@ TEXTURE2D(_LightMap);                 SAMPLER(sampler_LightMap);
 TEXTURE2D(_FaceShadowMap);            SAMPLER(sampler_FaceShadowMap);
 TEXTURE2D(_RampMap);                  SAMPLER(sampler_RampMap);
 TEXTURE2D(_BloomMap);                 SAMPLER(sampler_BloomMap);
-TEXTURE2D(_MetalMap);                 SAMPLER(sampler_MetalMap);
 TEXTURE2D(_Set_HighColorMask);        SAMPLER(sampler_Set_HighColorMask);
 TEXTURE2D(_CameraDepthTexture);       SAMPLER(sampler_CameraDepthTexture);
 TEXTURE2D(_RimMask);                  SAMPLER(sampler_RimMask);
@@ -99,8 +98,6 @@ half4 _ShadowMapColor;
 float _OutlineWidth;
 half4 _OutlineColor;
 float _OutlineZOffset;
-float   _OutlineZOffsetMaskRemapStart;
-float   _OutlineZOffsetMaskRemapEnd;
 
 half _Cutoff;
 CBUFFER_END

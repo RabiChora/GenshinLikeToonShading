@@ -46,27 +46,33 @@ public class CameraMovementPC : MonoBehaviour
         //Move
         if(Input.GetKey(KeyCode.D))
         {
-            Vector3 translation = new Vector3(speed * Time.deltaTime, 0, 0);
-            lerpTimer = Time.deltaTime * speed*5f;
-            transform.Translate(Vector3.Lerp(origin, translation, lerpTimer));
+            lerpTimer = Time.deltaTime * speed ;
+            transform.position = Vector3.Lerp(pos, pos + transform.right*2, lerpTimer);
         }
         if(Input.GetKey(KeyCode.A))
         {
-            Vector3 translation = new Vector3(-speed * Time.deltaTime, 0, 0);
-            lerpTimer = Time.deltaTime * speed*5f;
-            transform.Translate(Vector3.Lerp(origin, translation, lerpTimer));
+            lerpTimer = Time.deltaTime * speed ;
+            transform.position = Vector3.Lerp(pos, pos - transform.right*2, lerpTimer);
         }
         if(Input.GetKey(KeyCode.S))
         {
-            Vector3 translation = new Vector3(0, -speed * Time.deltaTime, 0);
-            lerpTimer = Time.deltaTime * speed*5f;
-            transform.Translate(Vector3.Lerp(origin, translation, lerpTimer));
+            lerpTimer = Time.deltaTime * speed ;
+            transform.position = Vector3.Lerp(pos, pos - transform.forward*2, lerpTimer);
         }
         if(Input.GetKey(KeyCode.W))
         {
-            Vector3 translation = new Vector3(0, speed * Time.deltaTime, 0);
-            lerpTimer = Time.deltaTime * speed*5f;
-            transform.Translate(Vector3.Lerp(origin, translation, lerpTimer));
+            lerpTimer = Time.deltaTime * speed ;
+            transform.position = Vector3.Lerp(pos, pos + transform.forward*2, lerpTimer);
+        }
+        if(Input.GetKey(KeyCode.Q))
+        {
+            lerpTimer = Time.deltaTime * speed ;
+            transform.position = Vector3.Lerp(pos, pos - transform.up*2, lerpTimer);
+        }
+        if(Input.GetKey(KeyCode.E))
+        {
+            lerpTimer = Time.deltaTime * speed ;
+            transform.position = Vector3.Lerp(pos, pos + transform.up*2, lerpTimer);
         }
     }
 }

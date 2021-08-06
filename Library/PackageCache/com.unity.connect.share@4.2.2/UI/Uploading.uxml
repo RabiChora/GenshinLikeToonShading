@@ -1,0 +1,19 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:VisualElement name="Header" class="header-container" style="display:none">
+        <Style src="Styles.uss" />
+        <ui:Image name="imgThumbnail" class="header-thumbnail" />
+        <ui:VisualElement name="ProjectInfo" class="header-project-info">
+            <ui:Label text="" name="lblProjectName" class="header-project-name" />
+            <ui:Label text="" name="lblUserEmail" class="header-user-email" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:VisualElement name="MainWindow" class="main-container">
+        <Style src="Styles.uss" />
+        <ui:VisualElement name="imgError" class="status-icon status-icon-uploading" />
+        <uie:ProgressBar name="barProgress" class="progress-bar" />
+        <ui:Label text="Uploading (0%)..." name="lblProgress" class="progress-label" />
+    </ui:VisualElement>
+    <ui:Button text="Cancel" name="btnCancel" class="bottom-button">
+        <Style src="Styles.uss" />
+    </ui:Button>
+</ui:UXML>

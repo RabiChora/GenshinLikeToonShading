@@ -2,7 +2,6 @@ using UnityEngine;
 
 class CameraMovementMobile : MonoBehaviour
 {
-    #if UNITY_IOS || UNITY_ANDROID
         public Camera Camera;
         public bool Rotate;
         protected Plane Plane;
@@ -86,5 +85,4 @@ class CameraMovementMobile : MonoBehaviour
         {
             Gizmos.DrawLine(transform.position, transform.position + transform.up);
         }
-    #endif
 }

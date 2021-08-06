@@ -1,0 +1,19 @@
+{
+    "name": "Unity.Play.Publisher.Editor",
+    "references": [
+        "Unity.EditorCoroutines.Editor",
+        "Unity.Settings.Editor",
+        "Unity.InternalAPIEditorBridgeDev.001"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

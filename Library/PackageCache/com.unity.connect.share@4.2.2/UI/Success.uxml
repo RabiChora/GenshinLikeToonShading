@@ -1,0 +1,20 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:VisualElement name="Header" class="header-container" style="display:none">
+        <Style src="Styles.uss" />
+        <ui:Image name="imgThumbnail" class="header-thumbnail" />
+        <ui:VisualElement name="ProjectInfo" class="header-project-info">
+            <ui:Label text="Project name" name="lblProjectName" class="header-project-name" />
+            <ui:Label text="By some.dude@dudeland.com" name="lblUserEmail" class="header-user-email" style="align-items: auto; height: 19px; -unity-text-align: middle-left; -unity-font-style: normal; font-size: 14px; margin-bottom: 20px; justify-content: flex-start; flex-direction: column; flex-wrap: no-wrap; padding-left: 0; padding-right: 0; margin-left: 0; white-space: normal; width: 210px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:VisualElement name="MainWindow" class="main-container">
+        <Style src="Styles.uss" />
+        <ui:Image name="imgUpload" class="status-icon status-icon-success" />
+        <ui:Label text="Upload Completed" name="lblMessage" class="progress-label" />
+        <ui:Label text="Opening browser window..." name="lblAdvice" class="info-text" />
+        <ui:Label text="" name="lblLink" class="connect-link" />
+    </ui:VisualElement>
+    <ui:Button text="Done" name="btnFinish" class="bottom-button">
+        <Style src="Styles.uss" />
+    </ui:Button>
+</ui:UXML>

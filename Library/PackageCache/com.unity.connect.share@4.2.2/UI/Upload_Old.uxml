@@ -1,0 +1,20 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:VisualElement name="MainWindow" class="form-container">
+        <Style src="Upload_Old.uss" />
+        <ui:Label text="Upload and Share your WebGL Game To Unity Connect:" name="lblTitle" class="form-title-label" />
+        <ui:Label text="Project Name:" name="lblProjectName" class="project-input-label" />
+        <ui:TextField picking-mode="Ignore" text="Untitled" name="txtProjectName" value="Untitled" class="text-input-container" />
+        <ui:Label text="Project Thumbnail (Optional):" name="lblProjectThumbnail" class="project-input-label" />
+        <ui:VisualElement name="ThumbnailContainer" class="thumbnail-container">
+            <Style src="Upload_Old.uss" />
+            <ui:Image name="imgThumbnail" class="thumbnail-preview" />
+            <ui:Button text="Select Image File..." name="btnSelectImage" class="select-image-button" />
+        </ui:VisualElement>
+        <ui:Label text="Last build is located at: C:/Users/Pizza/Italian/NoPineapple/ , Build date is: 25/02/2020" name="lblLastBuildInfo" class="project-input-label" />
+    </ui:VisualElement>
+    <ui:VisualElement style="flex-direction: row; flex-grow: initial; flex-wrap: no-wrap; width: auto;">
+        <Style src="Upload_Old.uss" />
+        <ui:Button text="Make New Build and Share" name="btnNewBuild" class="bottom-button" style="flex-direction: column; flex-grow: 1;" />
+        <ui:Button text="Share" name="btnShare" class="bottom-button" style="flex-grow: 1;" />
+    </ui:VisualElement>
+</ui:UXML>

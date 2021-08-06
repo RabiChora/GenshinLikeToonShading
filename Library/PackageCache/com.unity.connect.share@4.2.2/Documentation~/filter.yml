@@ -1,0 +1,27 @@
+apiRules:
+  - exclude:
+      hasAttribute:
+        uid: System.ObsoleteAttribute
+      type: Member
+  - exclude:
+      hasAttribute:
+        uid: System.ObsoleteAttribute
+      type: Type
+  - exclude:
+      uidRegex: Tests$
+      type: Namespace
+  - exclude:
+      uidRegex: PublisherReducer
+      type: Class
+  - exclude:
+      uidRegex: AppState
+      type: Class
+  - exclude:
+      uidRegex: Store
+      type: Class
+  - exclude:
+      uidRegex: UnityConnectSession
+      type: Class
+  - exclude:
+      uidRegex: LocalizationDatabaseBridge
+      type: Class
