@@ -3,7 +3,7 @@
 ## A brief introduction
 This is a test shader, tested and running correctly on Unity 2020.3.14f1c1(and above)
 
-***NOT ALL OF THE CODE IS MY PERSONAL WORK***
+***MOST OF THE CODE IS NOT MY PERSONAL WORK***
 
 This project refers to a lot of work done by others, like **[NiloCat](https://github.com/ColinLeung-NiloCat/UnityURPToonLitShaderExample/commits?author=ColinLeung-NiloCat)**. I've been working on this so that some of my friends who likes Genshin a lot can load their models in this style...
 
