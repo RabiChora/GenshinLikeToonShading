@@ -10,7 +10,7 @@ This project refers to a lot of work done by others, like **[NiloCat](https://gi
 ***PLEASE DO NOT USE THIS IN A COMERCIAL CONTEXT!!!***
 
 ---------------
-- The Android akk is available at(haven't test if this is applicapable yet):https://drive.google.com/file/d/1nYoANLN3CMEuGVx2YGUzjF95lRlWHQxy/view?usp=sharing
+- The Android apk is available at(haven't test if this is applicapable yet):https://drive.google.com/file/d/1nYoANLN3CMEuGVx2YGUzjF95lRlWHQxy/view?usp=sharing
 - PC package:https://drive.google.com/file/d/1YsRvVLL634HitELeI6vcnyz3rnQ2MWSs/view?usp=sharing
 - WebGL address:https://play.unity.com/mg/other/genshintoonshading_data
 
